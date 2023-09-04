@@ -9,10 +9,19 @@ html,body{
     height: 100%;
 }
 #mc2{
-    background-image: url(https://i.pinimg.com/236x/7b/be/fe/7bbefeb45dbf00fd2730752852305792.jpg);
+    height: 100%;
+    width: 100%;
+    background-image: url(https://i.pinimg.com/564x/c0/2c/04/c02c047e3fcea72182c41dfa46332295.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 #pushkar {
-    margin-top: 300px;
-    margin-left: 800px; 
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
 }
