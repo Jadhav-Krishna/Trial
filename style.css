@@ -8,13 +8,15 @@ html,body{
     width: 100%;
     height: 100%;
 }
-div {
+
+#lodu {
     width: 100%;
     height: 100%;
     background-image: url(https://imgs.search.brave.com/Y1bNpePnJhi8Fb7IDsG7jt9y9thygwvvIkU8igxHd5k/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzNhLzk0/L2M5LzNhOTRjOTM3/YTg3MmFlMTc1NGZj/ODJkZWY1ZTM1N2Mx/LmpwZw);
     background-position: center;
     background-size: cover;
 } 
-div.lodu {
-    position: ;
+
+#lalit {
+    margin: 300px;
 }
