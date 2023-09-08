@@ -8,20 +8,27 @@ html,body{
     width: 100%;
     height: 100%;
 }
-#mc2{
-    height: 100%;
-    width: 100%;
-    background-image: url(https://i.pinimg.com/564x/c0/2c/04/c02c047e3fcea72182c41dfa46332295.jpg);
-    background-position: center;
-    background-size: cover;
-}
-
-#pushkar {
-    position: absolute;
-    top: 35%;
-    left: 35%;
+#box1{
+    
+    height: 200px;
+    width: 250px;
+    background-color: blue;
+    position: relative;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%,-50%);
-    color: #fff;
-    font-size: 40px;
-    font-family: cursive;
+}
+#box2{
+    height: 250px;
+    width: 300px;
+    background-color: rgba(249, 5, 5, 0.746);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#box3{
+    height: 300px;
+    width: 350px;
+    background-color: gold;
 }
