@@ -30,10 +30,17 @@ html,body{
 img{
     height: 30px;
     margin-left: 20%;}
+
+#login{
+    margin-top: 12px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 630px;}
+
     
 #taskbar button{
     margin-top: 12px;
-    margin-left: 650px;
+    margin-left: 12px;
     color: white;
     background-color: black;
     font-size: 14px;
