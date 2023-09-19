@@ -14,7 +14,7 @@ html,body{
     background-size: cover;
 }
 #taskbar{
-    position: absolute;
+    position: sticky;
     display: flex;
     align-items: center;
     justify-content: center;
