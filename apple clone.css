@@ -39,16 +39,16 @@ i{
     position: absolute;
     top: 40%;
     left: 50%;
-    transform: translate(-50%, -50%);
-}
+    transform: translate(-50%, -50%);}
+
 p{
     position: absolute;
     text-align: center;
     color:white;
     padding: 680px 500px;
     font-size: 30px;
-    font-weight: 500;
-}
+    font-weight: 500;}
+
 button{
     top: 82%;
     left: 45%;
@@ -58,9 +58,9 @@ button{
     color: white;
     padding: 20px 20px;
     border-radius: 50px;
-    border-color: white;
-}
+    border-color: white;}
+    
 button:hover{
     background-color: white;
-    color: black;
-}
+    color: black;}
+
