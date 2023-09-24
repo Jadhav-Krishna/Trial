@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url(./mountain.jpg);
+    background-position: center;
+    background-size: cover;}
+
+#main #nav{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+    padding: 25px 70px;
+    background-color: white;}
+
+#logo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;}
+
+#logo #ho{
+    color: black;
+    font-weight: 600;
+    font-size: 30px;}
+
+#logo #ax{
+    color: rgb(100, 100, 100);
+    font-weight: 600;
+    font-size: 30px;}
+
+#option{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    margin-left: 50%;
+    display: flex;
+    gap: 100px;}
+
+#option a{
+    font-size: 13px;
+    gap: 30px;
+    text-decoration: none;
+    color: black;}
+
+#tlogo{
+    margin-left: 50px;
+    gap: 30px;
+    font-size: 22px;}
+
+#main #h1{
+    padding-left: 8%;
+    font-size: 36px;
+    letter-spacing: 3px;
+    display: flex;}
+
+#ax1{
+    color: rgb(100, 100, 100);}
+
+.gill{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+#main h3{
+    padding-top: 10%;
+    padding-left: 8%;
+    letter-spacing: 5px;
+    font-size: 36px;
+    color: rgb(100, 100, 100);}
+
+#main h5{
+    padding-left: 8%;
+    font-size: 26px;
+    letter-spacing: 5px;
+    color: rgb(100, 100, 100);}
+
+#main button{
+    margin-top: 12%;
+    margin-left: 47%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    background-color: black;    
+    padding: 12px 20px;
+    border-radius: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+
+
+
+
+
+
+
+#main2{
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;}
+
+#main h3{
+    padding-top: 10%;
+    padding-left: 8%;
+    letter-spacing: 5px;
+    font-size: 36px;
+}
+    
+
+#main2 #botton3 .botton{
+    text-align: center;
+    border-radius: 50px;
+    padding: 10px 20px;
+    color: black;
+    border-color: black;
+    background-color: transparent;
+    font-size: 18px;
+}
+

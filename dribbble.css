@@ -102,12 +102,14 @@ background-color: aqua;}
     width: 270px;
     border-radius: 40px;
     background-color: brown;
+    overflow: hidden;
+    object-fit: cover;
+
 }
 
-#picture .pic img{
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
-
+.pic img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
