@@ -1,96 +1,118 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-html,body{
+
+html,
+body {
     width: 100%;
     height: 100%;
 }
 
-#main{
+#main {
     height: 100%;
     width: 100%;
     background-image: url(./mountain.jpg);
     background-position: center;
-    background-size: cover;}
+    background-size: cover;
+}
 
-#main #nav{
+#main #nav {
     display: flex;
     align-items: center;
     height: 30px;
     width: 100%;
     padding: 25px 70px;
-    background-color: white;}
+    background-color: white;
+}
 
-#logo{
+#logo {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    display: flex;}
+    display: flex;
+}
 
-#logo #ho{
+#logo #ho {
     color: black;
     font-weight: 600;
-    font-size: 30px;}
+    font-size: 30px;
+}
 
-#logo #ax{
+#logo #ax {
     color: rgb(100, 100, 100);
     font-weight: 600;
-    font-size: 30px;}
+    font-size: 30px;
+}
 
-#option{
+#option {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 500;
     margin-left: 50%;
     display: flex;
-    gap: 100px;}
+    gap: 100px;
+}
 
-#option a{
+#option a {
     font-size: 13px;
     gap: 30px;
     text-decoration: none;
-    color: black;}
+    color: black;
+}
 
-#tlogo{
+#tlogo {
     margin-left: 50px;
-    gap: 30px;
-    font-size: 22px;}
+    width: 20%;
+    display: flex;
+    gap: 20px;
+    font-size: 22px;
+}
 
-#main #h1{
+#tlogo i {
+    margin-right: 10px;
+}
+
+#main #h1 {
     padding-left: 8%;
     font-size: 36px;
     letter-spacing: 3px;
-    display: flex;}
+    display: flex;
+}
 
-#ax1{
-    color: rgb(100, 100, 100);}
+#ax1 {
+    color: rgb(100, 100, 100);
+}
 
-.gill{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+.gill {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
-#main h3{
+#main h3 {
     padding-top: 10%;
     padding-left: 8%;
     letter-spacing: 5px;
     font-size: 36px;
-    color: rgb(100, 100, 100);}
+    color: rgb(100, 100, 100);
+}
 
-#main h5{
+#main h5 {
     padding-left: 8%;
     font-size: 26px;
     letter-spacing: 5px;
-    color: rgb(100, 100, 100);}
+    color: rgb(100, 100, 100);
+}
 
-#main button{
+#main button {
     margin-top: 12%;
     margin-left: 47%;
     text-align: center;
     font-size: 16px;
     font-weight: 600;
     color: rgb(255, 255, 255);
-    background-color: black;    
+    background-color: black;
     padding: 12px 20px;
     border-radius: 50px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 
 
@@ -99,171 +121,260 @@ html,body{
 
 
 
-#main2{
+#main2 {
     height: 100%;
-    width: 100%;}
+    width: 100%;
+}
 
-#main h3{
+#main h3 {
     padding-top: 10%;
     padding-left: 8%;
     letter-spacing: 5px;
-    font-size: 36px;}
+    font-size: 36px;
+}
 
-#main2 h3{
-    padding: 2%;
+#main2 h3 {
+    padding-top: 3%;
+    padding-left: 4%;
+    letter-spacing: 3px;
     font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
-#main2 #botton3 .botton1{
-    margin-left: 40%;
+#main2 #botton3{
+    padding-top: 3%;
+    padding-left: 40%;
+}
+
+#main2 #botton3 .botton1 {
     border-radius: 50px;
     padding: 5px 40px;
     color: black;
     border-color: black;
     background-color: white;
-    font-size: 18px;}
+    font-size: 18px;
+}
 
-#main2 #botton3 .botton2{
-    border-radius: 50px;
-    margin-left: 20px;
-    padding: 5px 40px;
-    color: black;
-    border-color: black;
-    background-color: white;
-    font-size: 18px;}
-
-#main2 #botton3 .botton3{
+#main2 #botton3 .botton2 {
     border-radius: 50px;
     margin-left: 20px;
     padding: 5px 40px;
     color: black;
     border-color: black;
     background-color: white;
-    font-size: 18px;}
+    font-size: 18px;
+}
 
-#main2 #botton3 button:hover{
+#main2 #botton3 .botton3 {
+    border-radius: 50px;
+    margin-left: 20px;
+    padding: 5px 40px;
+    color: black;
+    border-color: black;
+    background-color: white;
+    font-size: 18px;
+}
+
+#main2 #botton3 button:hover {
     background-color: black;
-    color: white;}
+    color: white;
+}
 
-#photo{
-    height: 80%;
-    width: 80%;
-    margin-top: 10%;
-    margin-left: 25%;
+#photo {
+    height: 60%;
+    width: 100%;
+    gap: 5px;
+    padding: 5% 10% 10% 10%;
     display: flex;
 }
 
-#photo #left{
+#photo #left {
     display: flex;
-    gap: 10px;
-    height: 500px;
-    width: 500px;
+    gap: 5px;
+    height: 100%;
+    width: 50%;
 }
-#photo #left #lleft #upper img{
-    height: 240px;
-    width: 240px;}
 
-#photo #left #lleft #lower img{
-    height: 240px;
-    width: 240px;}
+#photo #left #lleft{
+    height: 100%;
+    width: 100%;
+}
 
-#photo #left #lright img{
-    height: 485px;
-    width: 240px;}
+#photo #left #lleft #upper{
+    height: 100%;
+    width: 100%;
+}
 
+#photo #left #lleft #upper img {
+    height: 99%;
+    width: 100%;
+}
 
-#photo #right #rupper img{
-    height: 240px;
-    width: 490px;}
+#photo #left #lleft #lower{
+    height: 100%;
+    width: 100%;
+}
+
+#photo #left #lleft #lower img {
+    padding-top: 1px;
+    height: 99%;
+    width: 100%;
+}
+
+#photo #left #lright{
+    height: 100%;
+    width: 100%;
+}
+
+#photo #left #lright img {
+    height: 200%;
+    width: 100%;
+}
+
+#photo #right{
+    gap: 5px;
+    height: 100%;
+    width: 50%;
+}
+
+#photo #right #rupper img {
+    height: 100%;
+    width: 100%;
+}
+
+#photo #right #rupper{
+    height: 100%;
+    width: 100%;
+}
 
 #photo #right #rlower{
+    gap: 5px;
+    height: 100%;
+    width: 100%;
     display: flex;
-    gap: 10px;}
+}
+
+#photo #right #rlower #rleft{
+    
+    height: 100%;
+    width: 100%;
+}
 
 #photo #right #rlower #rleft img{
-    height: 240px;
-    width: 240px;}
+    padding-top: 1%;
+    height: 99%;
+    width: 100%;
+}
+
+#photo #right #rlower #rright{
+    height: 100%;
+    width: 100%;
+}
 
 #photo #right #rlower #rright img{
-    height: 240px;
-    width: 240px;}
+    padding-top: 1%;
+    height: 99%;
+    width: 100%;
+}
 
-#main3{
+#main3 {
     height: 100%;
-    width: 100%;}
+    width: 100%;
+}
 
-#main3 #white{
+#main3 #white {
     height: 50%;
-    width: 100%;}
+    width: 100%;
+}
 
-#main3 #black{
+#main3 #black {
     padding: 100px;
     height: 50%;
     width: 100%;
-    background-color: black;}
+    background-color: black;
+}
 
-#main3 #botton #ho{
-    color: rgb(100, 100, 100);}
+#main3 #botton #ho {
+    color: rgb(100, 100, 100);
+}
 
-    #main3 #botton #ax{
-    color: rgb(151, 151, 151);}
+#main3 #botton #ax {
+    color: rgb(151, 151, 151);
+}
 
-#main3 #botton{
+#main3 #botton {
     margin-left: 45%;
-    display: flex;}
+    display: flex;
+}
 
-#main3 button{
+#main3 button {
     padding: 7px;
     border: 2px solid rgb(140, 140, 140);
     background-color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border-color: rgb(175, 175, 175);}
+    border-color: rgb(175, 175, 175);
+}
 
-#main3 #black h3{
+#main3 #black h3 {
     margin-top: 20px;
     padding-left: 37%;
     color: rgb(146, 146, 146);
     letter-spacing: 10px;
 }
 
-#main3 #logo{
+#main3 #logo {
     margin-left: 39%;
 }
 
-#main3 #black i{
+#main3 #black i {
     color: white;
     letter-spacing: 30px;
     font-size: 26px;
     margin-top: 50px;
 }
 
-#main3 #black h6{
+#main3 #black h6 {
     color: rgb(105, 105, 105);
     letter-spacing: 5px;
     margin-top: 30px;
     margin-left: 35%;
 }
 
-#main3 #white h3{
-    margin-left: 40%;
-    margin-top: 100px;
-    font-size: 22px;
+#main3 #white h3 {
+    text-align: center;
+    padding-top: 10%;
+    font-size: 30px;
     font-weight: 700;
-    letter-spacing: 5px;}
+    letter-spacing: 5px;
+}
 
-#main3 #white a{
-    margin-left: 37%;
+#main3 #white a {
     font-family: cursive;
     text-decoration: none;
     color: black;
     font-size: 20px;
 }
 
-#main3 #white h6{
+#main3 #white #a1 {
+    padding-top: 5%;
+    text-align: center;
+}
+
+#main3 #white h6 {
     margin-top: 35px;
-    margin-left: 44%;
+    text-align: center;
     color: rgb(125, 125, 125);
     letter-spacing: 10px;
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#main3 #white button {
+    color: #fff;
+    margin-left: 46%;
+    align-items: center;
+    background-color: black;
+    padding: 10px 30px;
+    border-radius: 50px;
+    margin-top: 45px;
 }
