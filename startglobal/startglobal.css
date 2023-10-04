@@ -14,15 +14,44 @@ html,body{
     overflow: hidden;
     position: relative;
 }
-#page{
+#main #page{
     height: 100%;
     width: 100%;
-    background-color: aqua;
 }
 #main #page #circle1{
+    top: 50%;
+    right: -20%;
+    transform: translate(0, -50%);
     position: absolute;
-    height: 130px;
-    width: 130px;
-    background-color: royalblue;
-
+    height: 130vh;
+    width: 130vh;
+    border-radius: 50%;
+    border: 3px solid rgba(0, 0, 0, 0.3);
+}
+#main #page #circle1 #circle2{
+    top: 50%;
+    position: absolute;
+    transform: translate(0, -50%);
+    height: 120vh;
+    width: 120vh;
+    border-radius: 50%;
+    border: 5px solid blue;
+}
+#main #page #circle1 #circle2 #circle3{
+    top: 50%;
+    transform: translate(0, -50%);
+    position: absolute;
+    height: 110vh;
+    width: 110vh;
+    border-radius: 50%;
+    background-color: rgb(28, 79, 233);
+}
+#main #page #circle1 #circle2 #circle3 #circle4{
+    top: 50%;
+    transform: translate(0, -50%);
+    position: absolute;
+    height: 95vh;
+    width: 95vh;
+    border-radius: 50%;
+    background-color: blue;
 }
