@@ -14,3 +14,15 @@ html,body{
     overflow: hidden;
     position: relative;
 }
+#page{
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+}
+#main #page #circle1{
+    position: absolute;
+    height: 130px;
+    width: 130px;
+    background-color: royalblue;
+
+}

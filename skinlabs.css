@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 20%;
+    background-image: url(https://assets.website-files.com/5f040c8ad0b82a728ec61a1e/5f11465c2ae6bc44354005a7_hero-image-skincare.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#logo img{
+    margin-top: 15px;
+    height: 20px;
+}
+#footer h1{
+    margin-bottom: 5%;
+    font-size: 99px;
+    font-weight: 250;
+}
+#page1{
+    height: 100vh;
+    width: 100%;
+    padding: 7% 20%;
+}
+#page1 h1{
+    font-size: 65px;
+    font-weight: 100;
+}
+#a1{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#a1 h6{
+    font-size: 36px;
+    font-weight: 200;
+}
+#nav{
+    height: 5%;
+    width: 45%;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav hr{
+    height: 30px;   
+}
+#nav h6{
+    font-size: 16px;
+}
+#nav a{
+    font-size: 16px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.917);
+}
+#page1 #cleansers{
+    height: 60%;
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    border: 1px solid;
+}
+.cl{
+    height: 100%;
+    padding: 15px;
+    width: 33.333333%;
+    border: 1px solid;
+}
+#page1 #cleansers .cl img{
+    height: 85%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+#page1 #cleansers .cl p{
+    font-size: 14px;
+    opacity: 0.7;
+}
+#page1 #cleansers .cl h3{
+    margin-top: 5px;
+    font-size: 32px;
+    font-weight: 300;
+}
+
+
+
+
+
+#page1 #treatment{
+    height: 60%;
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    border: 1px solid;
+}
+#page1 #treat{
+    margin-top: 10%;
+    font-size: 36px;
+    font-weight: 200;
+}
+.tr{
+    height: 100%;
+    padding: 15px;
+    width: 33.333333%;
+    border: 1px solid;
+}
+#page1 #treatment .tr img{
+    height: 85%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+#page1 #treatment .tr p{
+    font-size: 14px;
+    opacity: 0.7;
+}
+#page1 #treatment .tr h3{
+    margin-top: 5px;
+    font-size: 32px;
+    font-weight: 300;
+}
+
+
+
+
+
+#page1 #moisturized{
+    height: 60%;
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    border: 1px solid;
+}
+#page1 #moistur{
+    margin-top: 10%;
+    font-size: 36px;
+    font-weight: 200;
+}
+.mo{
+    height: 100%;
+    padding: 15px;
+    width: 33.333333%;
+    border: 1px solid;
+}
+#page1 #moisturized .mo img{
+    height: 85%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+#page1 #moisturized .mo p{
+    font-size: 14px;
+    opacity: 0.7;
+}
+#page1 #moisturized .mo h3{
+    margin-top: 5px;
+    font-size: 32px;
+    font-weight: 300;
+}
+
+
+
+
+#p1{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+#p1 #left{
+    height: 100%;
+    width: 50%;
+}
+#p1 h1{
+    margin-top: 40%;
+    font-weight: 100;
+}
+#p1 p{
+    margin-top: 3%;
+    font-family: sans-serif;
+}
+#p1 #left button{
+    background-color: black;
+    color: white;
+    margin-top: 10%;
+    font-size: 18px;
+    padding: 20px 40px;
+}
+#p1 #right{
+    height: 100%;
+    width: 50%;
+}
+#p1 #photo{
+    margin-top: 30%;
+    width: 100%;
+    height: 50%;
+}
+#p1 #photo #top{
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+#p1 #photo #top #leftt{
+    border: 1px solid;
+    height: 100%;
+    width: 50%;
+}
+#p1 #photo #top #rightt{
+    border: 1px solid;
+    height: 100%;
+    width: 50%;
+}
+#p1 #right #photo #bottom{
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+#p1 #right #photo #bottom #leftb{
+    border: 1px solid;
+    height: 100%;
+    width: 50%;
+}
+#p1 #right #photo #bottom #rightb{
+    border: 1px solid;
+    height: 100%;
+    width: 50%;
+}
+#p1 #right #photo img{
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
