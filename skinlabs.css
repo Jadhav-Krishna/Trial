@@ -80,6 +80,7 @@ body {
     padding: 15px;
     width: 33.333333%;
     border: 1px solid;
+
 }
 #page1 #cleansers .cl img{
     height: 85%;
@@ -95,6 +96,9 @@ body {
     margin-top: 5px;
     font-size: 32px;
     font-weight: 300;
+}
+#page1 #cleansers .cl img:hover{
+    scale: 1.2;
 }
 
 
