@@ -77,7 +77,10 @@ form #but{
     font-weight: 100;
 }
 
+<<<<<<< HEAD
+=======
 form #but:hover{
     background-color: rgb(143, 143, 143);
     width: 120px;
 }
+>>>>>>> 585d44e0056e105b28466c944bad7dd6b956c43c

@@ -14,15 +14,61 @@
    justify-content: center;
    background: radial-gradient(lightblue ,royalblue)
 }
-
-#main #box{
-   height: 40%;
-   width: 50%;
-   background-color: white;
+html,body{
+    width: 100%;
+    height: 100%;
 }
+#lodu{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    background-image: url(https://i.pinimg.com/564x/ad/e0/df/ade0df428fb2ce2bf37bb97e2e9a1f11.jpg);
+    background-position: center;
+    background-size: cover;
 
-#main #box img{
-   height: 100%;
-   width: 40%;
-   object-fit: center;
+}
+#lalit1{
+    height: 500px;
+    width: 300px;
+    background-image: url(https://i.pinimg.com/564x/82/ad/89/82ad8927767c0858f0ec0bba7d309af2.jpg);
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+}
+#lalit2{
+    height: 500px;
+    width: 300px;
+    background-image: url(https://i.pinimg.com/564x/99/a2/b9/99a2b982c1c75ba3a1949ed9f91f6bdc.jpg);
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+
+}
+#lalit3{
+    height: 500px;
+    width: 300px;
+    background-image: url(https://i.pinimg.com/736x/41/9e/bd/419ebd51c50793dfac12c69c8cfa55fd.jpg);
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+}
+#lalit1:hover{
+    scale: 1.2;
+}
+#lalit2:hover{
+    scale: 1.2;
+}
+#lalit3:hover{
+    scale: 1.2;
+}
+h1{
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }

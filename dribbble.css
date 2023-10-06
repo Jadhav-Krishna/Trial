@@ -1,3 +1,19 @@
+<<<<<<< HEAD
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+html,body{
+    width: 100%;
+    height: 100%;}
+#main{
+    height: 100%;
+    width: 100%;
+    padding: 10px;}
+
+#taskbar{
+=======
 * {
     margin: 0;
     padding: 0;
@@ -19,6 +35,7 @@ body {
 }
 
 #taskbar {
+>>>>>>> 585d44e0056e105b28466c944bad7dd6b956c43c
     margin-top: 27px;
     margin-left: 27px;
     display: flex;
@@ -26,6 +43,28 @@ body {
     justify-content: start;
     gap: 25px;
     height: 20px;
+<<<<<<< HEAD
+    width: 100%;}
+
+#taskbar a{    
+    font-size: 17px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;}
+
+img{
+    height: 30px;
+    margin-left: 20%;}
+
+#login{
+    margin-top: 12px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 630px;}
+
+    
+#taskbar button{
+=======
     /* padding: 0px 50px; */
     width: 100%;
 }
@@ -52,12 +91,26 @@ body {
 
 
 #taskbar button {
+>>>>>>> 585d44e0056e105b28466c944bad7dd6b956c43c
     margin-top: 12px;
     margin-left: 12px;
     color: white;
     background-color: black;
     font-size: 14px;
     padding: 13px 25px;
+<<<<<<< HEAD
+    border-radius: 50px;}
+
+a:hover{
+    opacity: .89;
+    text-decoration: underline;}
+
+button:hover{
+    opacity: 0.75;}
+
+h5{
+    margin-top: 130px;
+=======
     border-radius: 50px;
 }
 
@@ -72,12 +125,33 @@ button:hover {
 
 h5 {
     margin-top: 110px;
+>>>>>>> 585d44e0056e105b28466c944bad7dd6b956c43c
     margin-left: 35%;
     width: 500px;
     padding: 10px 15px;
     border-radius: 50px;
     font-size: 18px;
     background-color: rgb(225, 231, 149);
+<<<<<<< HEAD
+    text-align: center;}
+
+h1{
+    margin-right: 5%;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif}
+
+h3{
+    margin-top: 45px;
+    margin-left: 27%;
+    align-items: center;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+#main #hire{
+=======
     text-align: center;
 }
 
@@ -100,12 +174,16 @@ h3 {
 }
 
 #main #hire {
+>>>>>>> 585d44e0056e105b28466c944bad7dd6b956c43c
     color: white;
     background-color: black;
     font-size: 16px;
     margin-top: 50px;
     margin-left: 44%;
     padding: 20px 25px;
+<<<<<<< HEAD
+    border-radius: 50px;}
+=======
     border-radius: 50px;
 }
 
@@ -151,3 +229,4 @@ h3 {
     object-fit: cover;
     object-position: center;
 }
+>>>>>>> 585d44e0056e105b28466c944bad7dd6b956c43c
