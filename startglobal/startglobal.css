@@ -130,7 +130,7 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: -20px;
+    margin-top: -50px;
     padding: 10px;
     width: 100%;
     height: 23%;
@@ -159,7 +159,7 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    margin-top: -20px;
+    margin-top: -60px;
     padding: 10px;
     width: 100%;
     height: 23%;
@@ -182,4 +182,123 @@ html,body{
     margin-left: 30px;
     font-size: 14px;
     opacity: 0.5;
+}
+
+
+#lh1{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: -120%;
+    display: flex;
+    gap: 20px;
+    letter-spacing: 5px;
+}
+#lh1 h4{
+    color: blue;
+    font-size: 20px;
+}
+#lh1 h5{
+    opacity: 0.7;
+    font-weight: 600;
+}
+
+#d{
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    gap: 30px;
+    box-shadow: 5px 5px 10px black;
+    margin-left: -25%;
+    margin-top: 75%;
+
+}
+#d .cd{
+    padding: 17px 70px 17px 20px;
+    border-radius: 10px;
+    display: flex;
+    gap: 15px;
+}
+#d .cd i{
+    color: blue;
+    font-size: 17px;
+}
+#d .cd h5{
+    font-size: 14px;
+    color: black;
+    font-weight: 600;
+}
+#d .cd p{
+    font-size: 12px;
+    opacity: 0.7;
+}
+#d #d1{
+    margin: 5px;
+    background-color: rgb(198, 231, 198);
+}
+#d #d1 i{
+    width: 20px;
+    border-radius: 50%;
+    color: white;
+}
+#d #d2{
+    margin: 5px;}
+#d #d3{
+    margin: 5px;}
+
+
+
+#ld{
+    position: absolute;
+    bottom: 50%;
+    left: -120%;
+    background-color: white;
+}
+#ld img{
+    height: 80px;
+    filter: saturate(10);
+}
+#ld h1{
+    font-size: 56px;
+    font-weight: 600;
+}
+#ld h5{
+    font-size: 22px;
+}
+#ld #para{
+    margin-top: 25px;
+    opacity: 0.6;
+}
+
+
+
+#footer{
+    position: absolute;
+    align-items: center;
+    left: -110%;
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 5% 10%;
+
+    box-shadow: 5px 5px 15px black;
+}
+#footer .f{
+    padding: 2%;
+}
+#footer .f h5{
+    color: blue;
+    font-size: 12px;
+    font-weight: 700;
+}
+#footer .f h1{
+    font-size: 25px;
+}
+#footer .f h6{
+    font-size: 12px;
+    opacity: 0.8;}
+#footer h2{
+    font-size: 30px;
+    color: blue;
 }
