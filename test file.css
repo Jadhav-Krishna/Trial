@@ -49,7 +49,11 @@
     width: 65%;
     position: relative;
 }
-
+.row{
+    height: 10%;
+    width: 10%;
+    background-color: aqua;
+}
 .row #elemr{
     height: 100px;
     width: 100px;
