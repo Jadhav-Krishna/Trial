@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: black;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+#main #nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 700;
+    padding: 1% 2.5%;
+    height: 7%;
+    width: 100%;
+    background-color: black;
+}
+#main #nav #n1{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+    font-size: 15px;
+}
+#main #nav #n1 #photo{
+    height: 35px;
+}
+#main #nav #n1 a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+#main #nav #n1 #a1{
+    display: flex;
+    flex-direction: row;
+}
+#main #nav #n1 #sub{
+    margin-top: 5px;
+    padding: 5px 17px;
+    font-size: 12px;
+    color: rgb(164, 148, 57);
+    border: 2px solid rgb(164, 148, 57);
+    border-radius: 30px;
+}
+#main #nav #n2{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+#main #nav #n2 img{
+    height: 40px;
+}
+#main #nav #n2 input{
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    border-radius: 40px;
+    border: 2px solid rgba(255, 255, 255, 0.509);
+    padding: 11px 15px;
+    font-size: 16px;
+}
+
+
+
+
+#main #page1{
+    height: 70%;
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    background-color: black;
+}
+#main #page1 #left{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+#main #page1 #left h1{
+    font-size: 38px;
+    letter-spacing: -5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    color: white;
+}
+#main #page1 #left p{
+    margin-top: 10px;
+    color: white;
+    opacity: 0.8;
+    font-size: 12px;
+}
+#main #page1 #left button{
+    height: 40px;
+    width: 110px;
+    margin-top: 10px;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    background-color: rgb(216, 33, 158);
+}
+#main #page1 #left i{
+    font-size: 17px;
+}
+#main #page1 #right{
+    height: 100%;
+    width: 60%;
+}
+#main #page1 #right img{
+    box-shadow: 100px 100px 20px black inset;
+}
+
+#ad{
+    width: 100%;
+    padding: 30px;
+    background-color: black;
+}
+#ad img{
+    border-radius: 10px;
+}
+
+#main .scroll{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    padding: 1%;
+    overflow: auto;
+}
+.scroll .pics{
+    height: 98%;
+    width: 14%;
+    overflow: hidden;
+    border-radius: 15px;
+    background-color: aqua;
+    flex-shrink: 0;
+}
+.scroll::-webkit-scrollbar{
+    display: none;
+}
+#main #s{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+    font-size: 22px;
+}
+.scroll .pics img{
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+
+}

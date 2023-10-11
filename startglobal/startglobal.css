@@ -281,11 +281,10 @@ html,body{
     background-color: white;
     border-radius: 10px;
     margin: 5% 10%;
-
     box-shadow: 5px 5px 15px black;
 }
 #footer .f{
-    padding: 2%;
+    padding: 3%;
 }
 #footer .f h5{
     color: blue;
@@ -301,4 +300,19 @@ html,body{
 #footer h2{
     font-size: 30px;
     color: blue;
+}
+
+
+
+
+
+#main #page1{
+    height: 100%;
+    width: 100%;
+    background-color: blueviolet;
+}
+#main #page1 #circle{
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
 }
