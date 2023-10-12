@@ -1,24 +1,40 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
-html,body{
+
+html,
+body {
     height: 100%;
     width: 100%;
 }
-#main{
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#main {
     height: 100vh;
     width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
     position: relative;
 }
-#main #page{
+
+#main #page {
     height: 100%;
     width: 100%;
+    overflow: hidden;
 }
-#main #page #circle1{
+
+#main #page #circle1 {
     top: 50%;
     right: -20%;
     transform: translate(0, -50%);
@@ -28,7 +44,8 @@ html,body{
     border-radius: 50%;
     border: 3px solid rgba(0, 0, 0, 0.3);
 }
-#main #page #circle1 #circle2{
+
+#main #page #circle1 #circle2 {
     top: 50%;
     right: -2%;
     position: absolute;
@@ -38,7 +55,8 @@ html,body{
     border-radius: 50%;
     border: 5px solid blue;
 }
-#main #page #circle1 #circle2 #circle3{
+
+#main #page #circle1 #circle2 #circle3 {
     top: 50%;
     right: -2%;
     transform: translate(0, -50%);
@@ -48,7 +66,8 @@ html,body{
     border-radius: 50%;
     background-color: rgb(28, 79, 233);
 }
-#main #page #circle1 #circle2 #circle3 #circle4{
+
+#main #page #circle1 #circle2 #circle3 #circle4 {
     top: 50%;
     right: 0;
     transform: translate(0, -50%);
@@ -58,7 +77,8 @@ html,body{
     border-radius: 50%;
     background-color: rgb(60, 60, 228);
 }
-#card1{
+
+#card1 {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -68,30 +88,35 @@ html,body{
     margin-left: -30%;
     border: 0px solid;
     padding: 20px;
-    box-shadow: 0px 5px 20px black ;
+    box-shadow: 0px 5px 20px black;
     border-radius: 15px;
     width: 42%;
     height: 20%;
 }
-#card1 i{
+
+#card1 i {
     color: blue;
     font-size: 30px;
 }
-#card1 h2{
+
+#card1 h2 {
     font-size: 20px;
 }
-#card1 p{
+
+#card1 p {
     font-size: 14px;
     margin-top: -1px;
     opacity: 0.9;
 }
-#progress{
+
+#progress {
     height: 5px;
     width: 90%;
     background-color: #c0c0c0;
     border-radius: 50px;
 }
-#doneyet{
+
+#doneyet {
     height: 5px;
     width: 50%;
     background-color: blue;
@@ -102,7 +127,7 @@ html,body{
 
 
 
-#card2{
+#card2 {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -112,21 +137,24 @@ html,body{
     margin-left: -10%;
     border: 0px solid;
     padding: 20px;
-    box-shadow: 0px 5px 20px black ;
+    box-shadow: 0px 5px 20px black;
     border-radius: 15px;
     width: 45%;
     height: 35%;
     z-index: -1;
 }
-#card2 p{
+
+#card2 p {
     margin-top: -40px;
     font-size: 16px;
     opacity: 0.7;
 }
-#card2 h2{
+
+#card2 h2 {
     font-size: 20px;
 }
-#card2 #c1{
+
+#card2 #c1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -138,24 +166,28 @@ html,body{
     border-radius: 10px;
     background-color: rgba(139, 184, 226, 0.554);
 }
-#card2 #com{
+
+#card2 #com {
     padding: 15px;
     background-color: blue;
     color: white;
     border-radius: 10px;
     font-size: 18px;
 }
-#card2 #c1 h5{
+
+#card2 #c1 h5 {
     margin-left: -110px;
     font-size: 16px;
     font-weight: 600;
 }
-#card2 #c1 p{
+
+#card2 #c1 p {
     margin-left: -110px;
     font-size: 14px;
     opacity: 0.5;
 }
-#card2 #c2{
+
+#card2 #c2 {
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -166,26 +198,29 @@ html,body{
     border: 1px solid #dadada;
     border-radius: 10px;
 }
-#card2 #c2 i{
+
+#card2 #c2 i {
     padding: 15px;
     color: blue;
     border: 1px solid;
     border-radius: 10px;
     font-size: 18px;
 }
-#card2 #c2 h5{
+
+#card2 #c2 h5 {
     margin-left: 30px;
     font-size: 16px;
     font-weight: 600;
 }
-#card2 #c2 p{
+
+#card2 #c2 p {
     margin-left: 30px;
     font-size: 14px;
     opacity: 0.5;
 }
 
 
-#lh1{
+#lh1 {
     position: absolute;
     margin-top: 5%;
     margin-left: -120%;
@@ -193,16 +228,18 @@ html,body{
     gap: 20px;
     letter-spacing: 5px;
 }
-#lh1 h4{
+
+#lh1 h4 {
     color: blue;
     font-size: 20px;
 }
-#lh1 h5{
+
+#lh1 h5 {
     opacity: 0.7;
     font-weight: 600;
 }
 
-#d{
+#d {
     display: flex;
     background-color: white;
     border-radius: 10px;
@@ -210,68 +247,88 @@ html,body{
     box-shadow: 5px 5px 10px black;
     margin-left: -25%;
     margin-top: 75%;
+}
+
+#d #d1 img {
+    height: 30px;
+    filter: saturate(2.5);
+    align-items: center;
 
 }
-#d .cd{
+
+#d .cd {
     padding: 17px 70px 17px 20px;
     border-radius: 10px;
     display: flex;
     gap: 15px;
 }
-#d .cd i{
+
+#d .cd i {
     color: blue;
     font-size: 17px;
 }
-#d .cd h5{
+
+#d .cd h5 {
     font-size: 14px;
     color: black;
     font-weight: 600;
 }
-#d .cd p{
+
+#d .cd p {
     font-size: 12px;
     opacity: 0.7;
 }
-#d #d1{
+
+#d #d1 {
     margin: 5px;
-    background-color: rgb(198, 231, 198);
+    background-color: rgba(211, 237, 211, 0.802);
 }
-#d #d1 i{
+
+#d #d1 i {
     width: 20px;
     border-radius: 50%;
     color: white;
 }
-#d #d2{
-    margin: 5px;}
-#d #d3{
-    margin: 5px;}
+
+#d #d2 {
+    margin: 5px;
+}
+
+#d #d3 {
+    margin: 5px;
+}
 
 
 
-#ld{
+#ld {
     position: absolute;
     bottom: 50%;
     left: -120%;
     background-color: white;
 }
-#ld img{
+
+#ld img {
     height: 80px;
     filter: saturate(10);
 }
-#ld h1{
+
+#ld h1 {
     font-size: 56px;
     font-weight: 600;
 }
-#ld h5{
+
+#ld h5 {
     font-size: 22px;
 }
-#ld #para{
+
+#ld #para {
     margin-top: 25px;
     opacity: 0.6;
 }
 
 
 
-#footer{
+#footer {
     position: absolute;
     align-items: center;
     left: -110%;
@@ -280,24 +337,30 @@ html,body{
     width: 1200px;
     background-color: white;
     border-radius: 10px;
-    margin: 5% 10%;
+    margin: 4% 10%;
     box-shadow: 5px 5px 15px black;
 }
-#footer .f{
+
+#footer .f {
     padding: 3%;
 }
-#footer .f h5{
+
+#footer .f h5 {
     color: blue;
     font-size: 12px;
     font-weight: 700;
 }
-#footer .f h1{
+
+#footer .f h1 {
     font-size: 25px;
 }
-#footer .f h6{
+
+#footer .f h6 {
     font-size: 12px;
-    opacity: 0.8;}
-#footer h2{
+    opacity: 0.8;
+}
+
+#footer h2 {
     font-size: 30px;
     color: blue;
 }
@@ -306,13 +369,103 @@ html,body{
 
 
 
-#main #page1{
-    height: 100%;
+#main #page1 {
+    height: 90%;
     width: 100%;
-    background-color: blueviolet;
+    position: absolute;
+    background-color: #fff;
 }
-#main #page1 #circle{
-    height: 50%;
-    width: 50%;
+
+#main #page1 #circle {
+    height: 55vh;
+    width: 55vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     border-radius: 50%;
+    border: 3px solid rgba(100, 99, 99, 0.5);
+}
+
+#main #page1 #circle #chotacircle {
+    height: 20vh;
+    width: 20vh;
+    background-color: rgba(0, 0, 255, 0.125);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#page1 #circle p {
+    font-size: 30px;
+    margin-left: -7%;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 40%;
+    width: 115%;
+}
+
+#page1 #circle h3 {
+    color: blue;
+    font-size: 25px;
+    margin-left: 37%;
+    margin-top: 30px;
+}
+
+#page1 #circle #l {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.772);
+    margin-top: -0.5%;
+}
+
+#page1 #circle #anime {
+    width: 100%;
+    height: 2%;
+    position: absolute;
+    top: 50%;
+    animation: rotate 10s linear infinite;
+    transform: translate(-50%, -50%);
+}
+
+#page1 #circle #anime #ball {
+    height: 2.5vh;
+    width: 2.5vh;
+    background-color: blue;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+#main #page1 #circle1{
+    height: 55vh;
+    width: 55vh;
+    position: absolute;
+    top: 50%;
+    left: 105%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    border: 3px solid rgba(100, 99, 99, 0.724);
+}
+#page1 #head{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-30%,-50%) rotate(90deg);
+    gap: 15px;
+    font-weight: 700;
+    color: rgba(77, 76, 76, 0.75);
+    letter-spacing: 2px;
+    transform: rotate(90deg);
+}
+#page1 #head h1{
+    color: blue;
+}
+
+
+
+#main #page2{
+    height: 80%;
+    width: 100%;
 }
