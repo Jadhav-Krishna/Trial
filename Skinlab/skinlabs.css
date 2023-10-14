@@ -80,13 +80,14 @@ body {
     padding: 15px;
     width: 33.333333%;
     border: 1px solid;
-
 }
 #page1 #cleansers .cl img{
     height: 85%;
     width: 100%;
     background-position: center;
     background-size: cover;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1.5s;
+
 }
 #page1 #cleansers .cl p{
     font-size: 14px;
@@ -98,7 +99,7 @@ body {
     font-weight: 300;
 }
 #page1 #cleansers .cl img:hover{
-    scale: 1.2;
+    scale: 1.25;
 }
 
 
@@ -128,6 +129,7 @@ body {
     width: 100%;
     background-position: center;
     background-size: cover;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1.5s;
 }
 #page1 #treatment .tr p{
     font-size: 14px;
@@ -137,6 +139,9 @@ body {
     margin-top: 5px;
     font-size: 32px;
     font-weight: 300;
+}
+#page1 #treatment .tr img:hover{
+    scale: 1.25;
 }
 
 
@@ -166,6 +171,7 @@ body {
     width: 100%;
     background-position: center;
     background-size: cover;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1.5s;
 }
 #page1 #moisturized .mo p{
     font-size: 14px;
@@ -175,6 +181,9 @@ body {
     margin-top: 5px;
     font-size: 32px;
     font-weight: 300;
+}
+#page1 #moisturized .mo img:hover{
+    scale: 1.25;
 }
 
 
@@ -212,41 +221,58 @@ body {
     margin-top: 30%;
     width: 100%;
     height: 50%;
+    overflow: hidden;
 }
 #p1 #photo #top{
     height: 50%;
     width: 100%;
     display: flex;
+    overflow: hidden;
+
 }
 #p1 #photo #top #leftt{
     border: 1px solid;
     height: 100%;
     width: 50%;
+    overflow: hidden;
+
 }
 #p1 #photo #top #rightt{
     border: 1px solid;
     height: 100%;
     width: 50%;
+    overflow: hidden;
+
 }
 #p1 #right #photo #bottom{
     height: 50%;
     width: 100%;
     display: flex;
+    overflow: hidden;
+
 }
 #p1 #right #photo #bottom #leftb{
     border: 1px solid;
     height: 100%;
     width: 50%;
+    overflow: hidden;
+
 }
 #p1 #right #photo #bottom #rightb{
     border: 1px solid;
     height: 100%;
     width: 50%;
+    overflow: hidden;
+
 }
 #p1 #right #photo img{
     background-position: center;
     background-size: cover;
     height: 100%;
     width: 100%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+}
+#p1 #right #photo img:hover{
+    scale: 1.5;
 }
 
