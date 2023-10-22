@@ -55,11 +55,28 @@ body {
 
 #option a {
     display: inline;
-    font-size: 13px;
+    font-size: 14px;
     gap: 0px;
     text-decoration: none;
     color: black;
 }
+#main #nav a::before{
+    content: '';
+    position: absolute;
+    bottom: -7px;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background-color: #ee0653;
+    transition: all .5s;
+}
+#main #nav a:hover::before{
+    width: 100%;
+}
+#main #nav a:hover{
+    scale: 1;
+}
+
 
 #tlogo {
     margin-left: 50px;
