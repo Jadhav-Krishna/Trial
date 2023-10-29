@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+#upper{
+    height: 50%;
+    width: 100%;
+    background-image: linear-gradient(to bottom right,black,rgb(92, 81, 81));    
+}
+#upper #nav {
+    padding: 3% 10%;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    justify-content: space-between;
+}
+#upper #nav a{
+    text-decoration: none;
+    color: white;
+}
+#lower{
+    height: 50%;
+    width: 100%;
+}
+.card{
+    position: absolute;
+    margin-top: 12%;
+    height: 60%;
+    width: 20%;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 7px 7px 15px black;
+}
+#card1{
+    margin-left: 13%;
+}
+#card2{
+    margin-left: 40%;
+}
+#card3{
+    margin-left: 67%;
+}
+#main .card #a1{
+    width: 100%;
+    height: 45%;
+    background-color: rgb(91, 27, 72);
+}
+#main .card #a2{
+    width: 100%;
+    height: 45%;
+    background-color: rgb(109, 1, 1);
+}
+#main .card #a3{
+    width: 100%;
+    height: 45%;
+    background-color: rgb(33, 32, 32);
+}
+#main #card1 button{
+    padding: 4% 10%;
+    border-radius: 50px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(91, 27, 72);
+}
+#main #card3 img{
+    height: 600px;
+    margin-top: -40%;
+    margin-left: -30%;
+}
+#main #card2 img{
+    height: 350px;
+    margin-top: -11%;
+    margin-left: -10%;
+}
+#main #card1 img{
+    height: 350px;
+    margin-top: -10%;
+    margin-left: -8%;
+}
+#main #card2 button{
+    padding: 4% 10%;
+    border-radius: 50px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(109, 1, 1);
+
+}
+#main #card3 button{
+    padding: 4% 10%;
+    border-radius: 50px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(33, 32, 32);
+}
+#main .card h1{
+    margin-top: 50px;
+}
+#main .card p{
+    margin-top: 20px;
+    font-size: 14px;
+}
+#main .card button{
+    margin-top: 35px;
+}

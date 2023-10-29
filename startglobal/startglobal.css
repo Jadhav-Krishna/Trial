@@ -465,7 +465,45 @@ body {
 
 
 
-#main #page2{
-    height: 80%;
+#page2{
+    height: 65%;
     width: 100%;
+    display: flex;
+}
+#page2 #left{
+    height: 100%;
+    width: 35%;
+}
+#page2 #left{
+    font-size: 18px;
+    color: black;
+    padding: 10%;
+    align-items: center;
+    justify-content: center;
+}
+#page2 #left h6{
+    margin-top: 20px;
+    font-size: 14px; 
+}
+#page2 #left #h6{
+    margin-top: -1px;
+    font-weight: 600;
+}
+#page2 #left h5{
+    margin-top: 20px;
+    color: blue;
+}
+#page2 #right{
+    height: 100%;
+    width: 65%;
+}
+#page2 #right #upper{
+    display: flex;
+    gap: 3px;
+}
+#page2 #right #upper .u{
+    height: 30%;
+    position: absolute;
+    width: 15%;
+    background-color: aqua;
 }
