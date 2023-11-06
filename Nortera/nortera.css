@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: rgb(201, 212, 218);
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    height: 100vh;
+    width: 100%;
+}
+#page1{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    padding: 0 2%;
+}
+#page1 #nav{
+    width: 100%;
+    height: 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#page1 #nav img{
+    height: 70px;
+}
+#page1 #nav #n3{
+    gap: 15px;
+    display: flex;
+}
+#page1 #nav #n3 h3{
+    margin-top: 10px;
+}
+#page1 #nav #n2{
+    display: flex;
+    gap: 50px;    
+}
+#page1 #nav h3{
+    font-size: 20px;
+    font-weight: 400;
+}
+#nav i{
+    border-radius: 50%;
+    border: none;
+    font-size: 25px;
+    background-color: azure;
+    padding: 10px 12px;
+}
+#main #page1 #upper{
+    height: 55%;
+    width: 100%;
+    display: flex;
+}
+#main #page1 #upper #left{
+    height: 100%;
+    width: 45%;
+}
+#main #page1 #upper #left h3{
+    font-size: 38px;
+    margin-top: 59%;
+    font-weight: 400;
+}
+#page1 #upper #right{
+    overflow: hidden;
+    border-radius: 500px;
+    height: 100%;
+    width: 55%;
+}
+#page1 #upper #right img{
+    height: 100%;
+    width: 100%;
+}
+#main #page1 #lower{
+    height: 35%;
+    width: 100%;
+}
+#main #page1 #lower h1{
+    font-size: 380px;
+    color: rgb(36, 62, 50);
+}
+
+
+
+
+#page2{
+    height: 100%;
+    width: 100%;
+    padding:  1% 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#page2 #left{
+    height: 100%;
+    width: 45%;
+}
+#page2 #left img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#main #page2 #right h4{
+    margin-top: -13%;
+    font-size: 30px;
+}
+#page2 #cont{
+    position: absolute;
+    display: flex;
+    overflow: hidden;
+    align-items: end;
+    justify-content: flex-end;
+    margin-top: 16.6%;
+    margin-left: 35%;
+    height: 65%;
+    width: 25%;
+    background-color: skyblue;
+}
+
+
+
+
+
+#page3{
+    height: 100%;
+    width: 100%;
+    padding: 3% 2%;
+}
+#page3 hr{
+    border: 1px solid black;
+}
+#page3 h1{
+    font-size: 100px;
+    font-weight: 400;
+    color: rgb(36, 62, 50);
+}
+#page3 button{
+    border: none;
+    margin-top: 10%;
+    margin-bottom: 3%;
+    font-size: 20px;
+    font-weight:300;
+}
+#page3 i{
+    font-size: 28px;
+    border-radius: 50%;
+    padding: 12px;
+    background-color: azure;
+    margin-right: 15px;
+}
