@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,89 +6,109 @@
     background-color: rgb(201, 212, 218);
 
 }
-html,body{
+
+html,
+body {
     width: 100%;
     height: 100%;
 }
+
 @keyframes ani {
-    0%{
+    0% {
         transform: translateX(0%);
     }
-    100%{
+
+    100% {
         transform: translateX(-200%);
     }
 }
-#main{
+
+#main {
     height: 100vh;
     width: 100%;
 }
-#page1{
+
+#page1 {
     height: 100%;
     width: 100%;
     overflow: hidden;
     padding: 0 2%;
 }
-#page1 #nav{
+
+#page1 #nav {
     width: 100%;
     height: 9%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-#page1 #nav img{
+
+#page1 #nav img {
     height: 70px;
 }
-#page1 #nav #n3{
+
+#page1 #nav #n3 {
     gap: 15px;
     display: flex;
 }
-#page1 #nav #n3 h3{
+
+#page1 #nav #n3 h3 {
     margin-top: 10px;
 }
-#page1 #nav #n2{
+
+#page1 #nav #n2 {
     display: flex;
-    gap: 50px;    
+    gap: 50px;
 }
-#page1 #nav h3{
+
+#page1 #nav h3 {
     font-size: 20px;
     font-weight: 400;
 }
-#nav i{
+
+#nav i {
     border-radius: 50%;
     border: none;
     font-size: 25px;
     background-color: azure;
     padding: 10px 12px;
 }
-#main #page1 #upper{
+
+#main #page1 #upper {
     height: 55%;
     width: 100%;
     display: flex;
 }
-#main #page1 #upper #left{
+
+#main #page1 #upper #left {
     height: 100%;
     width: 45%;
 }
-#main #page1 #upper #left h3{
+
+#main #page1 #upper #left h3 {
     font-size: 38px;
     margin-top: 59%;
     font-weight: 400;
 }
-#page1 #upper #right{
+
+#page1 #upper #right {
     overflow: hidden;
     border-radius: 500px;
     height: 100%;
     width: 55%;
 }
-#page1 #upper #right img{
+
+#page1 #upper #right img {
     height: 100%;
     width: 100%;
 }
-#main #page1 #lower{
+
+#main #page1 #lower {
     height: 35%;
     width: 100%;
 }
-#main #page1 #lower h1{
+
+#main #page1 #lower h1 {
     font-size: 380px;
     color: rgb(36, 62, 50);
 }
@@ -96,37 +116,44 @@ html,body{
 
 
 
-#page2{
+#page2 {
     height: 100%;
     width: 100%;
-    padding:  1% 2%;
+    padding: 2%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-#page2 #left{
+
+#page2 #left {
     height: 100%;
     width: 45%;
 }
-#page2 #left img{
+
+#page2 #left img {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
-#main #page2 #right h4{
+
+#main #page2 #right h4 {
     margin-top: -13%;
     font-size: 30px;
 }
-#page2 #cont{
+
+#page2 #cont {
     position: absolute;
     display: flex;
     overflow: hidden;
     align-items: end;
     justify-content: flex-end;
-    margin-top: 16.6%;
+    margin-top: 14.7%;
     margin-left: 35%;
     height: 65%;
     width: 25%;
+    background-color: skyblue;
+}
+#page2 #cont img{
     background-color: skyblue;
 }
 
@@ -134,37 +161,43 @@ html,body{
 
 
 
-#page3{
+#page3 {
     height: 100%;
     width: 100%;
-    padding: 3% 2%;
+    padding: 2%;
 }
-#page3 hr{
+
+#page3 hr {
     border: 1px solid black;
 }
-#page3 h1{
+
+#page3 h1 {
     font-size: 100px;
     font-weight: 400;
     color: rgb(36, 62, 50);
 }
-#page3 button{
+
+#page3 button {
     border: none;
     margin-top: 10%;
     margin-bottom: 3%;
     font-size: 20px;
-    font-weight:300;
+    font-weight: 300;
 }
-#page3 i{
+
+#page3 i {
     font-size: 28px;
     border-radius: 50%;
     padding: 12px;
     background-color: azure;
     margin-right: 15px;
 }
-#movingtext::-webkit-scrollbar{
+
+#movingtext::-webkit-scrollbar {
     display: none;
 }
-#page3 #movingtext{
+
+#page3 #movingtext {
     display: inline-flex;
     flex-direction: row;
     flex-shrink: 0;
@@ -173,21 +206,201 @@ html,body{
 
 
 
+
 #page4 {
     height: 100%;
     width: 100%;
     display: flex;
-    gap: 3%;
-    padding: 2% 3%;
+    padding: 2%;
+    gap: 1.5%;
 }
-#page4 #left{
-    height: 98%;
-    width: 49%;
-    background-color: rgb(27,61,56);
+
+#page4 #left {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(27, 61, 56);
 }
-#page4 #right{
-    height: 98%;
-    width: 49%;
+#page4 #left h1{
+    background-color: rgb(27, 61, 56);
+    color: white;
+}
+#page4 #right {
+    width: 50%;
+    height: 100%;
     background-image: url(./right.png);
+    background-position: center;
     background-size: cover;
+}
+
+
+
+
+#page5{
+    height: 100%;
+    width: 100%;
+    padding: 2%;
+    padding-bottom: 5%;
+    display: flex;
+    background-color: rgb(27, 61, 56);
+}
+#page5 #p1{
+    height: 100%;
+    width: 23%;
+    background-color: rgb(27, 61, 56);
+}
+#page5 #p1 #bottom{
+    width: 100%;
+    height: 50%;
+    border-radius: 50% 50% 0 0;
+    overflow: hidden;
+}
+#page5 #p1 #bottom{
+    margin-top: 80.5%;
+    background-image: url(https://www.datocms-assets.com/85733/1681248525-betteraves-1-1-1.jpg?ixlib=js-3.8.0&auto=format&w=600);
+    background-position: center;
+    background-size: cover;
+}
+#page5 #p1 h1{
+    background-color: rgb(27, 61, 56);
+    color: rgb(201, 212, 218);
+    font-size: 46px;
+    font-weight: 400;
+}
+#page5 #p2{
+    height: 100%;
+    width: 45%;
+    padding: 3%;
+    background-color: rgb(27, 61, 56);
+
+}
+#page5 #p2 h1{
+    font-size: 40px;
+    margin-top: 20%;
+    margin-left: 3%;
+    color: rgb(201, 212, 218);
+    background-color: rgb(27, 61, 56);
+}
+#page5 #p2 div{
+    margin-top: 60%;
+    margin-left: 5%;
+    background-color: rgb(27, 61, 56);
+    color: rgb(201, 212, 218);
+    padding: 10px;
+    border: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 20px;
+}
+#page5 #p2 i{
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 50%;
+    color: rgb(27, 61, 56);
+}
+#page5 #p3{
+    padding-top: 10%;
+    padding-bottom: 4%;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(27, 61, 56);
+}
+#page5 #p3 h1{
+    font-size: 80px;
+    font-weight: 520;
+    letter-spacing: 1px;
+    color: rgb(201, 212, 218);
+    background-color: rgb(27, 61, 56);
+}
+#page5 #p3 h6{
+    font-size: 20px;
+    color: rgb(201, 212, 218);
+    background-color: rgb(27, 61, 56);
+}
+
+
+
+
+
+#page6{
+    height: 100%;
+    width: 100%;
+    padding: 4% 2% 0 2% ;
+    padding-bottom: 5%;
+    display: flex;
+    gap: 2%;
+    background-color: rgb(27, 61, 56);
+}
+#page6 #left{
+    padding-top: 5%;
+    padding-left: 5%;
+    height: 100%;
+    width: 53%;
+    background-color: rgb(27, 61, 56);
+}
+#page6 #left h1{
+    font-weight: 500;
+    font-size: 75px;
+    color: white;
+    background-color: rgb(27, 61, 56);
+}
+#page6 #left h6{
+    font-weight: 500;
+    color: white;
+    font-size: 27px;
+    font-weight: 400;
+    background-color: rgb(27, 61, 56);
+}
+#page6 #left div{
+    margin-top: 7%;
+    font-size: 22px;
+    color: white;
+    background-color: rgb(27, 61, 56);
+}
+#page6 #left i{
+    font-size: 28px;
+    color: rgb(201, 212, 218);
+    color: black;
+    padding: 10px;
+    border-radius: 50%;
+}
+#page6 #left #img{
+    height: 50%;
+    width: 35%;
+    border-top-right-radius: 250px;
+    border-top-left-radius: 250px;
+    border-bottom-right-radius: 250px;
+    border-bottom-left-radius: 250px;
+    background-image: url(https://www.datocms-assets.com/85733/1679682275-emplois-departements.jpg?ixlib=js-3.8.0&auto=format&w=600);
+    background-position: center;
+    background-size: cover;
+}
+#page6 #right{
+    height: 100%;
+    width: 47%;
+    background-image: url(https://www.datocms-assets.com/85733/1681248724-2022-08-03_09133482_photo_by_jimmy_hamelin-4-min.jpg?ixlib=js-3.8.0&auto=format&w=1000);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+#page7{
+    height: 130%;
+    width: 100%;
+    background-color: rgb(27, 61, 56);
+    padding-top: 1%;
+}
+#page7 #nortera{
+    width: 100%;
+}
+#page7 #nortera h1{
+    font-size: 380px;
+    color: rgb(201, 212, 218);
+    background-color: rgb(27, 61, 56);
 }
