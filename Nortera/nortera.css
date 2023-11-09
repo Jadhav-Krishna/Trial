@@ -54,6 +54,7 @@ body {
 
 #page1 #nav #n3 h3 {
     margin-top: 10px;
+    background-color: transparent;
 }
 
 #page1 #nav #n2 {
@@ -64,6 +65,7 @@ body {
 #page1 #nav h3 {
     font-size: 20px;
     font-weight: 400;
+    background-color: transparent;
 }
 
 #nav i {
@@ -89,6 +91,7 @@ body {
     font-size: 38px;
     margin-top: 59%;
     font-weight: 400;
+    background-color: transparent;
 }
 
 #page1 #upper #right {
@@ -153,7 +156,8 @@ body {
     width: 25%;
     background-color: skyblue;
 }
-#page2 #cont img{
+
+#page2 #cont img {
     background-color: skyblue;
 }
 
@@ -218,12 +222,27 @@ body {
 #page4 #left {
     width: 50%;
     height: 100%;
-    background-color: rgb(27, 61, 56);
-}
-#page4 #left h1{
-    background-color: rgb(27, 61, 56);
     color: white;
+    text-align: center;
+    background-color: rgb(27, 61, 56);
 }
+
+#page4 #left h1 {
+    margin-top: 25%;
+    font-size: 56px;
+    font-weight: 500;
+    background-color: rgb(27, 61, 56);
+}
+
+#page4 #left img {
+    margin-top: 23.1%;
+    background-color: rgb(27, 61, 56);
+}
+
+#page4 #left h3 {
+    font-size: 22px;
+}
+
 #page4 #right {
     width: 50%;
     height: 100%;
@@ -235,7 +254,7 @@ body {
 
 
 
-#page5{
+#page5 {
     height: 100%;
     width: 100%;
     padding: 2%;
@@ -243,44 +262,52 @@ body {
     display: flex;
     background-color: rgb(27, 61, 56);
 }
-#page5 #p1{
+
+#page5 #p1 {
     height: 100%;
     width: 23%;
     background-color: rgb(27, 61, 56);
 }
-#page5 #p1 #bottom{
+
+#page5 #p1 #bottom {
     width: 100%;
     height: 50%;
     border-radius: 50% 50% 0 0;
     overflow: hidden;
 }
-#page5 #p1 #bottom{
+
+#page5 #p1 #bottom {
     margin-top: 80.5%;
     background-image: url(https://www.datocms-assets.com/85733/1681248525-betteraves-1-1-1.jpg?ixlib=js-3.8.0&auto=format&w=600);
     background-position: center;
     background-size: cover;
 }
-#page5 #p1 h1{
+
+#page5 #p1 h1 {
+    margin-top: 3%;
     background-color: rgb(27, 61, 56);
     color: rgb(201, 212, 218);
     font-size: 46px;
     font-weight: 400;
 }
-#page5 #p2{
+
+#page5 #p2 {
     height: 100%;
     width: 45%;
     padding: 3%;
     background-color: rgb(27, 61, 56);
 
 }
-#page5 #p2 h1{
+
+#page5 #p2 h1 {
     font-size: 40px;
     margin-top: 20%;
     margin-left: 3%;
     color: rgb(201, 212, 218);
     background-color: rgb(27, 61, 56);
 }
-#page5 #p2 div{
+
+#page5 #p2 div {
     margin-top: 60%;
     margin-left: 5%;
     background-color: rgb(27, 61, 56);
@@ -293,13 +320,15 @@ body {
     gap: 20px;
     font-size: 20px;
 }
-#page5 #p2 i{
+
+#page5 #p2 i {
     padding: 10px;
     font-size: 25px;
     border-radius: 50%;
     color: rgb(27, 61, 56);
 }
-#page5 #p3{
+
+#page5 #p3 {
     padding-top: 10%;
     padding-bottom: 4%;
     height: 100%;
@@ -309,14 +338,16 @@ body {
     justify-content: space-between;
     background-color: rgb(27, 61, 56);
 }
-#page5 #p3 h1{
+
+#page5 #p3 h1 {
     font-size: 80px;
     font-weight: 520;
     letter-spacing: 1px;
     color: rgb(201, 212, 218);
     background-color: rgb(27, 61, 56);
 }
-#page5 #p3 h6{
+
+#page5 #p3 h6 {
     font-size: 20px;
     color: rgb(201, 212, 218);
     background-color: rgb(27, 61, 56);
@@ -326,49 +357,55 @@ body {
 
 
 
-#page6{
+#page6 {
     height: 100%;
     width: 100%;
-    padding: 4% 2% 0 2% ;
+    padding: 4% 2% 0 2%;
     padding-bottom: 5%;
     display: flex;
     gap: 2%;
     background-color: rgb(27, 61, 56);
 }
-#page6 #left{
+
+#page6 #left {
     padding-top: 5%;
     padding-left: 5%;
     height: 100%;
     width: 53%;
     background-color: rgb(27, 61, 56);
 }
-#page6 #left h1{
+
+#page6 #left h1 {
     font-weight: 500;
     font-size: 75px;
     color: white;
     background-color: rgb(27, 61, 56);
 }
-#page6 #left h6{
+
+#page6 #left h6 {
     font-weight: 500;
     color: white;
     font-size: 27px;
     font-weight: 400;
     background-color: rgb(27, 61, 56);
 }
-#page6 #left div{
+
+#page6 #left div {
     margin-top: 7%;
     font-size: 22px;
     color: white;
     background-color: rgb(27, 61, 56);
 }
-#page6 #left i{
+
+#page6 #left i {
     font-size: 28px;
     color: rgb(201, 212, 218);
     color: black;
     padding: 10px;
     border-radius: 50%;
 }
-#page6 #left #img{
+
+#page6 #left #img {
     height: 50%;
     width: 35%;
     border-top-right-radius: 250px;
@@ -379,7 +416,8 @@ body {
     background-position: center;
     background-size: cover;
 }
-#page6 #right{
+
+#page6 #right {
     height: 100%;
     width: 47%;
     background-image: url(https://www.datocms-assets.com/85733/1681248724-2022-08-03_09133482_photo_by_jimmy_hamelin-4-min.jpg?ixlib=js-3.8.0&auto=format&w=1000);
@@ -390,17 +428,87 @@ body {
 
 
 
-#page7{
+#page7 {
     height: 130%;
     width: 100%;
     background-color: rgb(27, 61, 56);
     padding-top: 1%;
 }
-#page7 #nortera{
+
+#page7 #nortera {
     width: 100%;
 }
-#page7 #nortera h1{
+
+#page7 #nortera h1 {
     font-size: 380px;
     color: rgb(201, 212, 218);
+    background-color: rgb(27, 61, 56);
+}
+
+#page7 #fotter {
+    height: 30%;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(201, 212, 218);
+    background-color: rgb(27, 61, 56);
+}
+
+#page7 #fotter h2 {
+    font-size: 22px;
+    background-color: rgb(27, 61, 56);
+}
+
+#page7 #fotter h1,
+h3 {
+    background-color: rgb(27, 61, 56);
+}
+
+#page7 #fotter #f1 {
+    background-color: rgb(27, 61, 56);
+}
+
+#page7 #fotter #f1 #uk {
+    margin-top: 30%;
+}
+
+#page7 #fotter #f2 {
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(27, 61, 56);
+
+}
+
+#page7 #fotter #f3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(27, 61, 56);
+}
+
+#page7 #fotter #f4 {
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(27, 61, 56);
+}
+
+#page7 #fotter #f1 #facebook {
+    padding-bottom: 10%;
+}
+
+#page7 #fotter #f1 i {
+    font-size: 35px;
+    background-color: rgb(27, 61, 56);
+}
+
+#page7 #photo {
+    background-color: rgb(27, 61, 56);
+}
+
+#page7 #photo img {
     background-color: rgb(27, 61, 56);
 }
