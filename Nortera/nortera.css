@@ -19,7 +19,7 @@ body {
     }
 
     100% {
-        transform: translateX(-200%);
+        transform: translateX(-100%);
     }
 }
 
@@ -202,12 +202,22 @@ body {
 }
 
 #page3 #movingtext {
-    display: inline-flex;
-    flex-direction: row;
-    flex-shrink: 0;
-    overflow: hidden;
+    height: 25%;
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    position: relative;
+    align-items: center;
+    gap: 20px;
 }
-
+.box {
+    text-align: center;
+    font-size: 125px;
+    height: 100%;
+    width: 50%;
+    flex-shrink: 0;
+    animation: ani 5s linear infinite ;
+}
 
 
 
@@ -220,6 +230,7 @@ body {
 }
 
 #page4 #left {
+    position: relative;
     width: 50%;
     height: 100%;
     color: white;
@@ -246,10 +257,34 @@ body {
 #page4 #right {
     width: 50%;
     height: 100%;
+    position: relative;
+    text-align: center;
     background-image: url(./right.png);
     background-position: center;
     background-size: cover;
 }
+
+#page4 #right h1 {
+    font-size: 56px;
+    margin-top: 23%;
+    background-color: rgb(231, 197, 151);
+}
+
+#page4 #right h3 {
+    background-color: rgb(231, 197, 151);
+    font-size: 22px;
+}
+
+#page4 #lefti {
+    position: absolute;
+    color: black;
+    right: 40px;
+    bottom: 40px;
+    padding: 19px 23px;
+    font-size: 50px;
+    border-radius: 50%
+}
+
 
 
 
@@ -511,4 +546,13 @@ h3 {
 
 #page7 #photo img {
     background-color: rgb(27, 61, 56);
+}
+
+#page7 #icon {
+    margin-top: -22%;
+    right: 5%;
+    position: absolute;
+    padding: 20px 23px;
+    font-size: 50px;
+    border-radius: 50%;
 }
