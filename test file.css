@@ -1,31 +1,42 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
-html,body{
+
+html,
+body {
     width: 100%;
     height: 100%;
 }
 
-#page4{
-    height: 100%;
+i {
+    padding: 20px 20px;
+    border-radius: 50%;
+    font-size: 30px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+i::after {
+    content: "";
     width: 100%;
-    display: flex;
-    padding: 1% 2%;
-    gap: 1.5%;
-}
-#page4 #left{
-    width: 50%;
     height: 100%;
-    background-color: rgb(27,61,56);
+    position: absolute;
+    bottom: 200%;
+    right: 50%;
+    border-radius: 50%;
+    transition: all ease 0.8S;
 }
-#page4
-#page4 #right{
-    width: 50%;
-    height: 100%;
-    background-image: url(./right.png);
-    background-position: center;
-    background-size: cover;
+
+i:hover::after {
+    right: 0%;
+    bottom: 0%;
+    z-index: -1;
+    background-color: #50a855;
 }

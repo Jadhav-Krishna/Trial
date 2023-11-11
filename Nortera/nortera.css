@@ -67,14 +67,34 @@ body {
     font-weight: 400;
     background-color: transparent;
 }
+#page1 #nav h3{
+    position: relative;
+}
+#page1 #nav h3::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    transform-origin: bottom left;
+    transition: transform all ease 0.25s;
+}
+#page1 #nav h3:hover::after {
+    transform: scaleX(1);
+}
 
 #nav i {
+    overflow: hidden;
     border-radius: 50%;
     border: none;
     font-size: 25px;
     background-color: azure;
     padding: 10px 12px;
+    position: relative;
 }
+
+
 
 #main #page1 #upper {
     height: 55%;
@@ -104,6 +124,11 @@ body {
 #page1 #upper #right img {
     height: 100%;
     width: 100%;
+    transition: all ease 1s;
+
+}
+#page1 #upper #right img:hover{
+    scale: 1.3;
 }
 
 #main #page1 #lower {
@@ -131,6 +156,7 @@ body {
 #page2 #left {
     height: 100%;
     width: 45%;
+    overflow: hidden;
 }
 
 #page2 #left img {
@@ -138,6 +164,7 @@ body {
     width: 100%;
     object-fit: cover;
 }
+
 
 #main #page2 #right h4 {
     margin-top: -13%;
@@ -189,12 +216,30 @@ body {
     font-weight: 300;
 }
 
-#page3 i {
+#page3 button i {
     font-size: 28px;
     border-radius: 50%;
     padding: 12px;
+    overflow: hidden;
     background-color: azure;
     margin-right: 15px;
+}
+
+#page3 button i::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    bottom: 100%;
+    position: absolute;
+    right: 50%;
+    border-radius: 50%;
+    transition: all ease 0.7s;
+}
+
+#page3 button i:hover::after {
+    right: 0%;
+    bottom: 0%;
+    background-color: #50a855;
 }
 
 #movingtext::-webkit-scrollbar {
@@ -210,13 +255,14 @@ body {
     align-items: center;
     gap: 20px;
 }
+
 .box {
     text-align: center;
     font-size: 125px;
     height: 100%;
     width: 50%;
     flex-shrink: 0;
-    animation: ani 5s linear infinite ;
+    animation: ani 5s linear infinite;
 }
 
 
@@ -234,8 +280,13 @@ body {
     width: 50%;
     height: 100%;
     color: white;
+    overflow: hidden;
+    transition: all ease 0.4s;
     text-align: center;
     background-color: rgb(27, 61, 56);
+}
+#page4 #left:hover{
+    border-radius: 20%;
 }
 
 #page4 #left h1 {
@@ -258,10 +309,15 @@ body {
     width: 50%;
     height: 100%;
     position: relative;
+    overflow: hidden;
+    transition: all ease 0.4s;
     text-align: center;
     background-image: url(./right.png);
     background-position: center;
     background-size: cover;
+}
+#page4 #right:hover{
+    border-radius: 20%;
 }
 
 #page4 #right h1 {
@@ -318,6 +374,7 @@ body {
     background-size: cover;
 }
 
+
 #page5 #p1 h1 {
     margin-top: 3%;
     background-color: rgb(27, 61, 56);
@@ -359,10 +416,27 @@ body {
 #page5 #p2 i {
     padding: 10px;
     font-size: 25px;
+    overflow: hidden;
     border-radius: 50%;
     color: rgb(27, 61, 56);
 }
+#page5 #p2 i::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 200%;
+    right: 50%;
+    border-radius: 50%;
+    transition: all ease 0.8S;
+}
 
+#page5 #p2 i:hover::after {
+    right: 0%;
+    bottom: 0%;
+    z-index: -1;
+    background-color: #50a855;
+}
 #page5 #p3 {
     padding-top: 10%;
     padding-bottom: 4%;
@@ -556,3 +630,25 @@ h3 {
     font-size: 50px;
     border-radius: 50%;
 }
+
+#main i {
+    overflow: hidden;
+}
+
+#main i::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    bottom: 100%;
+    position: absolute;
+    right: 50%;
+    border-radius: 50%;
+    transition: all ease 0.7s;
+}
+
+#main i:hover::after {
+    right: 0%;
+    bottom: 0%;
+    background-color: #50a855;
+}
+
