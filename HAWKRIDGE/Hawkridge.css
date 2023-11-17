@@ -59,10 +59,28 @@ hr{
 #main #page1 #overlay #nav a{
     font-family: sans-serif;
     font-weight: 600;
+    position: relative;
     gap: -20px;
     font-size: 14px;
     text-decoration: none;
     color: white;
+    transition: all ease 0.5s;
+}
+#main #page1 #overlay #nav a:hover{
+    scale: 1.1;
+    color: rgba(255, 255, 255, 0.77);
+}
+#main #page1 #overlay #nav a:before{
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    width: 0;
+    background: rgb(126, 121, 54);
+    height: 2px;
+    transition: all ease 0.5s;
+}
+#main #page1 #overlay #nav a:hover:before{
+    width: 100%;
 }
 #main #page1 #overlay #nav button{
     padding: 12px 25px;
@@ -71,6 +89,11 @@ hr{
     color: white;
     background-color: transparent;
     border: 1px solid white;
+    transition: all ease 0.7s;
+}
+#main #page1 #overlay #nav button:hover{
+    background-color: white;
+    color: black;
 }
 #main #page1 #overlay p{
     text-align: center;
@@ -79,4 +102,188 @@ hr{
     margin: 33% 37% 0;
     width: 30%;
     color: white;
+}
+#main #page1 #overlay #mid{
+    margin-left: 45%;
+    font-size: 16px;
+    border: 2px solid black;
+    color: rgba(0, 0, 0, 0.7);
+    background-color: white                                                                                                                                                                                                                                                                 ;
+    letter-spacing: 1px;
+    margin-top: 3%;
+    padding: 15px 30px;
+    transition: all ease 0.5s;
+}
+#main #page1 #overlay #mid i{
+    font-size: 20px;
+    align-items: center;
+}
+#main #page1 #overlay #mid:hover{
+    background-color: transparent;
+    border: 2px solid white;
+    font-weight: 600;
+    color: white;
+}
+
+
+
+
+#page2{
+    height: 90%;
+    width: 100%;
+    position: relative;
+    padding: 0 4%;
+}
+#page2 hr{
+    border: 1% solid rgb(196, 169, 120);
+}
+#page2 #lefthr{
+    margin-left: -100%;
+    transform: rotate(90deg);
+}
+#page2 #righthr{
+    margin-right: -100%;
+    transform: rotate(90deg);
+}
+#page2 #heading{
+    height: 28%;
+    width: 100%;
+    display: flex;
+    padding: 5% 5% 2% 2%;
+}
+#page2 #heading h1{
+    margin-left: 20%;
+    font-size: 72px;
+    font-weight: 100;
+}
+#page2 #heading h6{
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    color: rgb(196, 169, 120);
+}
+
+#page2 #building{
+    height: 72%;
+    width: 100%;
+    display: flex;
+}
+#page2 #building #a1{
+    height: 100%;
+    width: 57%;
+    padding: 1.5%;
+}
+#page2 #building #a2{
+    height: 100%;
+    width: 18%;
+    padding-left: 1%;
+    position: relative;
+}
+#page2 #building #a2 img{
+    position: absolute;
+    margin-left: 20px;
+    bottom: 28px;
+}
+#page2 #building #a3{
+    height: 100%;
+    width: 25%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+#page2 #building #a3 h3{
+    line-height: 30px;
+    font-size: 22px;
+}
+#page2 #building #a3 p{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    opacity: 0.7;
+    margin-top: 5%;
+}
+#page2 #building button{
+    background-color: rgb(31, 57, 48);
+    color: white;
+    height: 55px;
+    width: 100%;
+    font-size: 18px;
+    transition: all ease 0.5s;
+}
+#page2 #building button:hover{
+    background-color: white;
+    color: black;
+    border: 1% solid black;
+}
+
+#page3{
+    height: 100%;
+    width: 100%;
+    padding: 0 4%;
+    position: relative;
+}
+#page3 #hr1{
+    margin-top: 15%;
+}
+#page3 img{
+    margin-left: 3%;
+    background-position: center;
+    background-size: cover;
+}
+#page3 h1{
+    text-align: center;
+    font-size: 72px;
+    font-weight: 100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#page3 #h11{
+    margin-left: -20%;
+}
+#page3 #h22{
+    margin-left: 15%;
+}
+#page3 h6{
+    position: absolute;
+    font-size: 18px;
+    font-family: sans-serif;
+    left: 6%;
+    top: 3%;
+    color: rgb(196, 169, 120);
+}
+#page3 #lefthr{
+    transform: rotate(90deg);
+    margin-left: -100%;
+    z-index: 1;
+}
+#page3 #righthr{
+    transform: rotate(90deg);
+    margin-right: -100%;
+    z-index: 1;
+}
+#page4{
+    height: 110%;
+    width: 100%;
+    padding: 0 4%;
+    z-index: -1;
+    position: relative;
+    background-image: linear-gradient(to top,black,transparent);
+}
+#page4 h5{
+    margin-top: 15%;
+    position: absolute;
+    font-size: 160px;
+    color: white;
+    z-index: -1;
+    font-weight: 100;
+}
+#page4 img{
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    background-position: center;
+    background-size: cover;
 }
