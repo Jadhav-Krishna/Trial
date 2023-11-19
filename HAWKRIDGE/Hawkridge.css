@@ -404,8 +404,530 @@ hr {
 
 
 
-#page5{
-    height: 150%;
+#page5 {
+    height: 170%;
     width: 100%;
+    position: relative;
+    padding: 0 4%;
     background-color: black;
+}
+
+#page5 #lefthr {
+    transform: rotate(90deg);
+    margin-left: -100%;
+}
+
+#page5 #righthr {
+    transform: rotate(90deg);
+    margin-right: -100%;
+}
+
+#page5 #first {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    padding: 1%;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    justify-content: end;
+}
+
+#page5 #first h1 {
+    color: white;
+    font-size: 72px;
+    font-weight: 100;
+}
+
+#page5 #first p {
+    left: 1%;
+    top: 45%;
+    position: absolute;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: rgb(192, 164, 111);
+}
+
+#page5 #second {
+    height: 13%;
+    width: 100%;
+    display: flex;
+}
+
+#page5 #second #s1 {
+    height: 100%;
+    width: 25%;
+    padding: 2%;
+}
+
+#page5 #second #s1 p {
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: sans-serif;
+}
+
+#page5 #second #s2 {
+    height: 100%;
+    width: 25%;
+}
+
+#page5 #second #s3 {
+    height: 100%;
+    width: 25%;
+    padding: 2%;
+    display: flex;
+    align-items: end;
+}
+
+#page5 #second #s3 h1 {
+    color: rgb(192, 164, 111);
+    font-size: 150px;
+    font-weight: 100;
+}
+
+#page5 #second #s3 p {
+    padding-bottom: 10%;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: rgb(192, 164, 111);
+}
+
+#page5 #second #s4 {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    padding: 2%;
+    align-items: end;
+}
+
+#page5 #second #s4 h1 {
+    color: rgb(192, 164, 111);
+    font-size: 150px;
+    font-weight: 100;
+}
+
+#page5 #second #s4 p {
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-weight: 600;
+    padding-bottom: 10%;
+    color: rgb(192, 164, 111);
+}
+
+#page5 #third {
+    height: 53%;
+    width: 100%;
+    display: flex;
+}
+
+#page5 #third #leftp {
+    height: 100%;
+    width: 50%;
+    padding: 2%;
+}
+
+#page5 #third #leftp img {
+    height: 100%;
+    width: 100%;
+}
+
+#page5 #third #rightp {
+    height: 100%;
+    width: 50%;
+    background-image: url(./story-2.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#page6 {
+    height: 200%;
+    width: 100%;
+    padding: 0 4%;
+    position: relative;
+    background-image: url(./page6\ bg.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+#page6 #lefthr {
+    transform: rotate(90deg);
+    margin-left: -100%;
+}
+
+#page6 img {
+    position: absolute;
+}
+
+#page6 #pic1 {
+    height: 600px;
+    width: 400px;
+    left: 10%;
+    top: 20%;
+    z-index: 1;
+}
+
+#page6 #pic2 {
+    height: 350px;
+    width: 600px;
+    left: 25%;
+    top: 10%;
+}
+
+#page6 #pic3 {
+    height: 350px;
+    width: 550px;
+    left: 40%;
+    top: 32%;
+}
+
+#page6 #con {
+    margin-top: 70%;
+    margin-left: 2%;
+    height: 27%;
+    width: 45%;
+    display: flex;
+    padding: 2%;
+    z-index: 1;
+    background-color: white;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#page6 #con #d1 p {
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(192, 164, 111);
+}
+
+#page6 #con #d2 h1 {
+    font-size: 65px;
+    font-weight: 100;
+}
+
+#page6 #con #d3 p {
+    font-size: 15px;
+    font-family: sans-serif;
+    width: 60%;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+#page6 #con button {
+    height: 50px;
+    font-size: 18px;
+    width: 50%;
+    border: 1px solid black;
+    background-color: rgb(31, 57, 48);
+    color: white;
+    letter-spacing: 2px;
+    transition: all ease 0.5s;
+}
+
+#page6 #con button:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#page7 {
+    position: relative;
+    overflow: hidden;
+    height: 173.45%;
+    width: 100%;
+    padding: 0 4%;
+    background-color: black;
+}
+
+#page7 #lefthr {
+    transform: rotate(90deg);
+    margin-left: -100%;
+}
+
+#page7 #righthr {
+    transform: rotate(90deg);
+    margin-right: -100%;
+}
+
+#page7 #midle {
+    height: 55%;
+    width: 100%;
+    display: flex;
+}
+
+#page7 #midle #left {
+    height: 100%;
+    width: 50%;
+    padding: 6% 2%;
+}
+
+#page7 #midle #left img {
+    height: 100%;
+    width: 100%;
+}
+
+#page7 #midle #right {
+    height: 100%;
+    width: 50%;
+    padding: 6% 2%;
+}
+
+#page7 #midle #right p {
+    color: rgb(192, 164, 111);
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+#page7 #midle #right h1 {
+    font-size: 70px;
+    font-weight: 100;
+    color: white;
+}
+
+#page7 #midle #right #uni {
+    margin-left: 45%;
+}
+
+#page7 #midle #right input {
+    padding: 3%;
+    width: 100%;
+    height: 50px;
+    color: white;
+    font-size: 16px;
+    background-color: transparent;
+    border: 1px solid rgb(192, 164, 111);
+}
+
+#page7 #midle #right #e2 input {
+    height: 50px;
+    width: 48%;
+}
+
+#page7 #midle #right #e1 {
+    margin-top: 5%;
+}
+
+#page7 #midle #right #e2 {
+    margin-top: 3.5%;
+    display: flex;
+    gap: 2%;
+}
+
+#page7 #midle #right #e3 {
+    margin-top: 3.5%;
+}
+
+#page7 #midle #right #e4 {
+    margin-top: 3.5%;
+}
+
+#page7 #midle #right #e4 input {
+    height: 200px;
+}
+
+#page7 #midle #right button {
+    height: 50px;
+    width: 25%;
+    margin-top: 7%;
+    background-color: white;
+    font-size: 18px;
+    transition: all ease 0.5s;
+}
+
+#page7 #midle #right button:hover {
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+#page7 #link {
+    display: flex;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+}
+
+#page7 #link h1 {
+    color: rgb(192, 164, 111);
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+#page7 #link #f4 #down {
+    text-align: center;
+    background-color: rgb(192, 164, 111);
+    color: black;
+    border: 1px solid black;
+    transition: all ease 0.5s;
+}
+
+#page7 #link #f4 #down i {
+    font-size: 20px;
+}
+
+#page7 #link #f4 #down:hover {
+    background-color: transparent;
+    color: rgb(192, 164, 111);
+    border: 1px solid rgb(192, 164, 111);
+}
+
+#page7 #link button {
+    height: 45px;
+    width: 40%;
+    margin-top: 25px;
+    margin-left: 22%;
+    color: white;
+    transition: all ease 0.5s;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+#page7 #link button:hover {
+    background-color: white;
+    color: black;
+}
+
+#page7 #link #f3 h1 {
+    padding-bottom: 4%;
+}
+
+#page7 #link #f3 #icon {
+    margin-left: 25%;
+}
+
+#page7 #link #f3 i {
+    margin-top: 100%;
+    color: white;
+    font-size: 50px;
+    font-weight: 100;
+    transition: all ease 0.3s;
+}
+
+#page7 #link #f3 i:hover {
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+}
+
+#page7 #link #f1 {
+    height: 100%;
+    width: 25%;
+    color: white;
+}
+
+#page7 #link #f2 {
+    height: 100%;
+    width: 25%;
+}
+
+#page7 #link #f3 {
+    height: 100%;
+    width: 25%;
+}
+
+#page7 #link #f4 {
+    height: 100%;
+    width: 25%;
+}
+
+#page7 #navi {
+    height: 15%;
+    width: 100%;
+    display: flex;
+}
+
+#page7 #navi #l {
+    height: 100%;
+    width: 50%;
+    padding: 3%;
+}
+
+#page7 #navi #l #aa {
+    margin-top: 9.7%;
+    height: 50%;
+    width: 100%;
+}
+
+#page7 #navi #l #aa a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+#page7 #navi #l #aa h6 {
+    margin-top: -4%;
+    padding-bottom: 2%;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: rgb(192, 164, 111);
+}
+
+#page7 #navi #r {
+    height: 100%;
+    width: 50%;
+    padding: 3%;
+}
+
+#page7 #navi #r #mail {
+    height: 50%;
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+}
+
+#page7 #navi #r #mail a {
+    margin-top: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+#page7 #navi #r #mail h6 {
+    padding-bottom: 5%;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: rgb(192, 164, 111);
+}
+
+#page7 #navi #r #mail #ml1 {
+    height: 100%;
+    width: 50%;
+}
+
+#page7 #navi #r #mail #ml2 {
+    height: 100%;
+    width: 50%;
+}
+
+#page7 #navi h1 {
+    color: white;
+    font-size: 60px;
+    font-weight: 100;
+}
+
+#page7 #navi a:hover {
+    opacity: 0.5;
+}
+
+#page7 #krish {
+    font-family: sans-serif;
+    padding: 2%;
+    color: white;
+}
+
+#page7 #krish a {
+    text-decoration: none;
+    color: white;
 }
