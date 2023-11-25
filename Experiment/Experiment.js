@@ -26,18 +26,17 @@ var boat = 0
 b.addEventListener('click',function(){
   if(boat===0){
     setTimeout(function(){
-      a.innerHTML='Friends'
+      a.innerHTML='Friends 💕'
       a.style.color='green'
       b.innerHTML='Remove friend'
     },5000)
     a.innerHTML='Request sending...'
-    a.style.color='yellow'
+    a.style.color='gold'
     b.innerHTML='Requesting...'
-
     boat = 1
   }
   else{
-    a.innerHTML='Stranger'
+    a.innerHTML='Stranger 💔'
     a.style.color='red'
     b.innerHTML='Add friend'
     boat = 0
