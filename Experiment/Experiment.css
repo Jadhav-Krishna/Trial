@@ -104,3 +104,29 @@ button{
     background-position: center;
     background-size: cover;
 }
+
+#page2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+#page2 h1{
+    font-size: 150px;
+    letter-spacing: 5px;
+    font-family: sans-serif;
+    color: white;
+    z-index: 9999;
+    mix-blend-mode: difference;
+}
+#page2 #cursor{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    mix-blend-mode: difference;
+}
+

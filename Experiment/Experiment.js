@@ -1,4 +1,4 @@
-var bulb = document.querySelector('#bulb')
+/* var bulb = document.querySelector('#bulb')
 var button = document.querySelector('#btn')
 var flag = 0
 
@@ -13,13 +13,13 @@ button.addEventListener('click',function(){
         bulb.style.boxShadow ='none'
         flag = 0
       }
-})
+})*/
 
 
-//page1
+//================= page 1 ===============
 
 
-var a = document.querySelector('#page1 #card h2')
+/* var a = document.querySelector('#page1 #card h2')
 var b = document.querySelector('#page1 #card button')
 var boat = 0
 
@@ -41,7 +41,23 @@ b.addEventListener('click',function(){
     b.innerHTML='Add friend'
     boat = 0
   }
+}) */
+
+
+//================= page 2 ==============
+
+
+/*  var page2 = document.querySelector('#page2')
+var head = document.querySelector('h1')
+var cur = document.querySelector('#cursor')
+page2.addEventListener('mousemove',function(xnxx){
+  cur.style.left = xnxx.x+'px'
+  cur.style.top = xnxx.y+'px'
 })
-
-
+head.addEventListener('mouseenter',function(){
+  cur.style.scale=3
+})
+head.addEventListener('mouseleave',function(){
+  cur.style.scale=1
+}) */
 
