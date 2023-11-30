@@ -14,10 +14,55 @@ body {
 ::-webkit-scrollbar {
     display: none;
 }
-
+#main #cursor{
+    height: 30px;
+    width: 30px;
+    z-index: 10;
+    position: absolute;
+    border-radius: 50%;
+    transition: all ease;
+    background-color: white;
+    font-size: 4px;
+    padding: 10px;
+    mix-blend-mode: difference;
+    margin-left: -5px;
+    text-align: center;
+}
+#loader{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(6, 6, 16);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: all ease 0.5s;
+    
+    
+ }
+ #circle{
+    height: 200px;
+    width: 200px;
+    border: 2px solid blue;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   position: absolute;
+ }
+ #circle h1{
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+ }
+ 
 #bg {
     height: 100%;
     width: 100%;
+    overflow: hidden;
     position: absolute;
     z-index: -1;
 }
@@ -315,7 +360,7 @@ button:hover::before {
     width: 100%;
     padding: 10%;
     color: white;
-    background-color: rgba(0, 0, 0, 0.856);
+    background-color: rgba(0, 0, 0, 0.85);
 }
 
 #page5 h1 {
@@ -350,7 +395,7 @@ button:hover::before {
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    background-color: rgba(5, 1, 18, 0.879);
+    background-color: rgba(0, 0, 0, 0.85);
 }
 
 #page6 #left {
