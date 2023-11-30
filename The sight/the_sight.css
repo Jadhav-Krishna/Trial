@@ -1,38 +1,46 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins';
 }
-html,body{
+
+html,
+body {
     width: 100%;
     height: 100%;
 }
-::-webkit-scrollbar{
+
+::-webkit-scrollbar {
     display: none;
 }
-#bg{
+
+#bg {
     height: 100%;
     width: 100%;
     position: absolute;
     z-index: -1;
 }
-#backg{
+
+#backg {
     right: 0;
     bottom: 0;
     z-index: -1;
 }
-#main{
+
+#main {
     height: 100Vh;
     width: 100%;
     overflow: auto;
 }
-#page1{
+
+#page1 {
     height: 100%;
     width: 100%;
     background-color: transparent;
 }
-#page1 #nav{
+
+#page1 #nav {
     width: 100%;
     height: 15%;
     padding: 5%;
@@ -42,22 +50,26 @@ html,body{
     font-size: 14px;
     color: white;
 }
-#page1 #nav a{
+
+#page1 #nav a {
     text-decoration: none;
     color: white;
     margin-right: 10px;
 }
-#page1 #nav h6{
+
+#page1 #nav h6 {
     font-size: 26px;
     font-weight: 400;
 }
-#page1 #nav #menu{
+
+#page1 #nav #menu {
     padding: 0.5% 1%;
     border-radius: 20px;
     font-weight: 400;
     background-color: rgba(2, 8, 57, 0.491);
 }
-#page1 h1{
+
+#page1 h1 {
     margin-top: 2%;
     margin-left: 10%;
     font-family: 'Poppins', sans-serif;
@@ -67,7 +79,8 @@ html,body{
     font-weight: 450;
     font-size: 150px;
 }
-#page1 button{
+
+#page1 button {
     height: 55px;
     width: 150px;
     margin-top: 3%;
@@ -82,7 +95,8 @@ html,body{
     border: 0.5px solid rgb(255, 255, 255);
     border-radius: 30px;
 }
-button::before{
+
+button::before {
     content: '';
     margin-top: -20px;
     margin-left: -30px;
@@ -94,13 +108,15 @@ button::before{
     transition: all .5s ease;
     z-index: -1;
 }
-button:hover::before{
+
+button:hover::before {
     bottom: 0;
     height: 100%;
     border-radius: 50px;
 
 }
-#page1 #last{
+
+#page1 #last {
     margin-top: 3%;
     height: 50px;
     width: 100%;
@@ -112,7 +128,8 @@ button:hover::before{
     align-items: center;
     justify-content: space-between;
 }
-#page1 p{
+
+#page1 p {
     margin-top: -7%;
     margin-left: 40%;
     z-index: 2;
@@ -125,7 +142,7 @@ button:hover::before{
 
 
 
-#page2{
+#page2 {
     height: 100%;
     width: 100%;
     padding: 5% 10%;
@@ -133,27 +150,31 @@ button:hover::before{
     align-items: end;
     justify-content: space-between;
 }
-#page2 #tyre{
+
+#page2 #tyre {
     overflow: hidden;
     padding: 5%;
     border-radius: 10%;
     color: white;
     letter-spacing: 2px;
     font-weight: 400;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     height: 100%;
     background-image: url(./Tyre.jpg);
     background-position: center;
     background-size: cover;
     width: 55%;
 }
-#page2 #a11{
+
+#page2 #a11 {
     margin-top: 80%;
 }
-#page2 #a22{
+
+#page2 #a22 {
     margin-top: 80%;
 }
-#page2 #donkey{
+
+#page2 #donkey {
     overflow: hidden;
     padding: 5%;
     color: white;
@@ -166,13 +187,15 @@ button:hover::before{
     background-position: center;
     background-size: cover;
 }
-#page2 button{
+
+#page2 button {
     border: none;
     padding: 5px 10px;
     border-radius: 15px;
     font-size: 12px;
 }
-#page3{
+
+#page3 {
     height: 100%;
     width: 100%;
     padding: 50px 10%;
@@ -182,11 +205,13 @@ button:hover::before{
     align-items: center;
     position: relative;
 }
-#page3 #left{
+
+#page3 #left {
     height: 100%;
     width: 50%;
 }
-#page3 #left h1{
+
+#page3 #left h1 {
     margin-top: 40%;
     line-height: 130px;
     font-size: 120px;
@@ -194,7 +219,8 @@ button:hover::before{
     font-weight: 500;
     color: white;
 }
-#page3 #left h5{
+
+#page3 #left h5 {
     margin-top: 8%;
     font-size: 20px;
     font-weight: 500;
@@ -204,7 +230,7 @@ button:hover::before{
 
 
 
-#page3 #right{
+#page3 #right {
     height: 100%;
     width: 40%;
     overflow: hidden;
@@ -215,88 +241,99 @@ button:hover::before{
     font-weight: 400;
     background-image: url(./headphone.jpg);
 }
-#page3 button{
+
+#page3 button {
     border: none;
     padding: 5px 10px;
     border-radius: 15px;
     font-size: 12px;
 }
-#page3 #right #a33{
+
+#page3 #right #a33 {
     margin-top: 140%;
 }
 
 
-#page4{
+#page4 {
     height: 100%;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 50px 10%;
-    background-image: linear-gradient(to bottom right,rgba(20, 0, 48, 0.879),rgba(0, 0, 0, 0.936));
+    background-image: linear-gradient(to bottom right, rgba(20, 0, 48, 0.879), rgba(0, 0, 0, 0.936));
 }
-#page4 #left4{
+
+#page4 #left4 {
     height: 70%;
     width: 40%;
     padding: 5%;
     border-radius: 10%;
-    background-image:url(./lady\ cup.jpg) ;
+    background-image: url(./lady\ cup.jpg);
 }
-#page4 #right4{
+
+#page4 #right4 {
     height: 90%;
     width: 55%;
     padding: 5%;
     border-radius: 10%;
-    background-image:url(./blue\ cup.jpg) ;
+    background-image: url(./blue\ cup.jpg);
 }
 
-#page4 .ll{
+#page4 .ll {
     color: white;
     letter-spacing: 2px;
     font-weight: 200;
     background-position: right center;
     background-size: cover;
 }
-#page4 button{
+
+#page4 button {
     border: none;
     padding: 5px 10px;
     border-radius: 15px;
     font-size: 12px;
 }
-#page4 #a44{
+
+#page4 #a44 {
     margin-top: 90%;
 }
-#page4 #a55{
+
+#page4 #a55 {
     margin-top: 85%;
 }
-#page4 #right4 h6{
+
+#page4 #right4 h6 {
     font-size: 14px;
 }
 
 
 
 
-#page5{
+#page5 {
     height: 100%;
     width: 100%;
     padding: 10%;
     color: white;
     background-color: rgba(0, 0, 0, 0.856);
 }
-#page5 h1{
+
+#page5 h1 {
     margin-top: 5%;
     font-size: 130px;
     line-height: 170px;
     font-weight: 400;
 }
-#page5 h4{
+
+#page5 h4 {
     font-size: 22px;
     font-weight: 300;
     line-height: 40px;
     font-family: sans-serif;
     color: rgba(255, 255, 255, 0.55);
 }
-#page5 h6{
+
+#page5 h6 {
     margin-top: -5%;
     padding-bottom: 3%;
     font-size: 16px;
@@ -305,24 +342,26 @@ button:hover::before{
 
 
 
-#page6{
+#page6 {
     height: 90%;
     width: 100%;
-    padding: 7%  10%;
+    padding: 7% 10%;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
     background-color: rgba(5, 1, 18, 0.879);
 }
-#page6 #left{
+
+#page6 #left {
     height: 80%;
     width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-#page6 #right{
+
+#page6 #right {
     height: 80%;
     width: 60%;
     display: flex;
@@ -330,112 +369,129 @@ button:hover::before{
     align-items: center;
     justify-content: end;
 }
-#page6 #left h6{
+
+#page6 #left h6 {
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 1px;
     color: blue;
     font-family: sans-serif;
 }
-#page6 #left h1{
+
+#page6 #left h1 {
     font-size: 120px;
     font-weight: 500;
     color: white;
     line-height: 150px;
 }
-#page6 #left h5{
+
+#page6 #left h5 {
     font-size: 18px;
     color: rgba(255, 255, 255, 0.75);
     font-weight: 400;
     line-height: 40px;
 }
-#page6 #right #top{
+
+#page6 #right #top {
     height: 20%;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-#page6 #right #bottom{
+
+#page6 #right #bottom {
     height: 20%;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-#page6 #right img{
+
+#page6 #right img {
     height: 100px;
 }
 
 
 
-#page7{
+#page7 {
     height: 90%;
     width: 100%;
     padding: 10%;
     background-color: rgb(9, 12, 21);
 }
-#page7 #toop{
+
+#page7 #toop {
     height: 50%;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-#page7 #toop h1{
+
+#page7 #toop h1 {
     font-size: 120px;
     color: white;
     font-weight: 500;
 }
-#page7 #toop h5{
+
+#page7 #toop h5 {
     color: white;
     font-size: 24px;
     font-weight: 500;
 }
-#page7 #toop h6{
+
+#page7 #toop h6 {
     color: white;
     font-size: 14px;
     font-weight: 400;
 }
-#page7 #bottomm{
+
+#page7 #bottomm {
     height: 50%;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-#bottomm #z1 h5{
+
+#bottomm #z1 h5 {
     font-size: 26px;
     font-weight: 500;
     color: white;
 }
-#bottomm #z1 h6{
+
+#bottomm #z1 h6 {
     margin-top: 10px;
     font-size: 14px;
     font-weight: 500;
     color: white;
 }
 
-#bottomm #z2{
+#bottomm #z2 {
     display: flex;
     flex-direction: column;
 }
-#bottomm #z2 a{
+
+#bottomm #z2 a {
     margin-top: 10px;
     color: white;
     text-decoration: none;
     font-weight: 600;
 }
-#bottomm #z3 a{
+
+#bottomm #z3 a {
     margin-left: 10px;
     color: white;
     text-decoration: none;
     font-weight: 600;
 }
-#bottomm #z3{
+
+#bottomm #z3 {
     text-align: right;
 }
-#bottomm #z3 h6{
+
+#bottomm #z3 h6 {
     font-size: 16px;
     color: white;
     padding-bottom: 30%;
