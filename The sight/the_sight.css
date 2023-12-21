@@ -24,6 +24,7 @@ body {
     background-color: white;
     font-size: 4px;
     padding: 10px;
+    transition: all ease 0.1s;
     mix-blend-mode: difference;
     margin-left: -5px;
     text-align: center;

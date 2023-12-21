@@ -17,6 +17,7 @@ circle.addEventListener("mouseenter", function () {
 })
 load.addEventListener("click",function(dets){
         load.style.display = 'none'
+        load.style.transition = 'all ease 0.5s'
 })
 
 var main = document.querySelector('#main')

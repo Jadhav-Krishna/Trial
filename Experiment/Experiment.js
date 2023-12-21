@@ -61,3 +61,34 @@ head.addEventListener('mouseleave',function(){
   cur.style.scale=1
 }) */
 
+
+
+
+var tl = gsap.timeline({
+  scrollTrigger:{
+    trigger:'#page3',
+    scroller:'body',
+    pin:true,
+    markers:true,
+    start:'top top',
+    scrub:'2'
+  }})
+tl
+.to('#page3 img',{
+  left:'-100%'
+})
+
+
+var tl2 = gsap.timeline({
+  scrollTrigger:{
+    trigger:'#page3',
+    scroller:'body',
+    pin:true,
+    markers:true,
+    start:'10% top',
+    scrub:'2'
+  }})
+tl2
+.to('#page3 #orange',{
+  display:'initial'
+})

@@ -1,25 +1,31 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-html,body{
+
+html,
+body {
     width: 100%;
     height: 100%;
 }
-#main{
+
+#main {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#page {
     height: 100vh;
-    width: 100%;
-}
-#page{
-    height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: radial-gradient(white,rgb(102, 233, 245));
+    background-image: radial-gradient(white, rgb(102, 233, 245));
 }
-#box{
+
+#box {
     height: 50%;
     width: 50%;
     margin-top: 10%;
@@ -29,7 +35,8 @@ html,body{
     flex-direction: column;
     gap: 50px;
 }
-#nav{
+
+#nav {
     height: 5%;
     width: 100%;
     display: flex;
@@ -37,17 +44,20 @@ html,body{
     justify-content: space-evenly;
     background-color: pink;
 }
-#nav a{
+
+#nav a {
     margin-left: 50px;
     text-decoration: none;
     color: black;
     font-size: 18px;
 }
-#nav i{
+
+#nav i {
     margin-left: -10%;
     font-size: 22px;
 }
-#bulb{
+
+#bulb {
     height: 300px;
     width: 300px;
     border-radius: 50%;
@@ -55,7 +65,8 @@ html,body{
     border: 5px solid black;
     transition: all ease 0.5s;
 }
-button{
+
+button {
     height: 50px;
     width: 150px;
     font-size: 18px;
@@ -64,15 +75,16 @@ button{
 }
 
 
-#page1{
-    height: 100%;
+#page1 {
+    height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: radial-gradient(pink,white);
+    background-image: radial-gradient(pink, white);
 }
-#page1 #card{
+
+#page1 #card {
     height: 500px;
     width: 350px;
     padding: 2%;
@@ -82,14 +94,16 @@ button{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    box-shadow:  10px 5px 25px rgb(102, 102, 102);
+    box-shadow: 10px 5px 25px rgb(102, 102, 102);
 }
-#page1 #card h2{
+
+#page1 #card h2 {
     color: red;
     font-family: sans-serif;
     font-size: 26px;
 }
-#page1 #card #photo{
+
+#page1 #card #photo {
     height: 150px;
     width: 150px;
     border-radius: 50%;
@@ -98,22 +112,24 @@ button{
     align-items: center;
     justify-content: center;
 }
-#page1 #card #photo img{
+
+#page1 #card #photo img {
     height: 220px;
     width: 150px;
     background-position: center;
     background-size: cover;
 }
 
-#page2{
-    height: 100%;
+#page2 {
+    height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: black;
 }
-#page2 h1{
+
+#page2 h1 {
     font-size: 150px;
     letter-spacing: 5px;
     font-family: sans-serif;
@@ -121,7 +137,8 @@ button{
     z-index: 9999;
     mix-blend-mode: difference;
 }
-#page2 #cursor{
+
+#page2 #cursor {
     height: 30px;
     width: 30px;
     position: absolute;
@@ -130,3 +147,26 @@ button{
     mix-blend-mode: difference;
 }
 
+
+
+
+#page3 {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+}
+
+#page3 img {
+    position: absolute;
+    scale: 1.1;
+    left: 100%;
+}
+#page3 #orange{
+    color: orangered;
+}
