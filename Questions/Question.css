@@ -14,6 +14,17 @@ html,body{
     width: 100%;
     background-color: lavender;
 }
+#page1 #heading{
+    padding: 2%;
+    height: 40%;
+    width: 100%;
+    background-color: black;
+}
+#page1 #heading h1{
+    font-size: 200px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
 #page2{
     height: 100vh;
     width: 100%;

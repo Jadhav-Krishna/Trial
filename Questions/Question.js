@@ -32,6 +32,7 @@ ScrollTrigger.refresh();
 locomotivecodepen();
 
 
+
 gsap.from("#page2 img",{
   scale:0,
   scrollTrigger:{
